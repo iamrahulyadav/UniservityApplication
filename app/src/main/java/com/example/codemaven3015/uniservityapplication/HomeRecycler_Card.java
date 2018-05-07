@@ -29,7 +29,7 @@ public class HomeRecycler_Card extends RecyclerView.Adapter<HomeRecycler_Card.Vi
 
 
 
-    private String[] text = {"INDIA","INDIA","INDIA",
+    private String[] text = {"Ukrain","INDIA","INDIA",
             "INDIA","INDIA","INDIA",
             "INDIA","INDIA","INDIA"};
 

@@ -13,14 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <android.support.design.widget.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_home"
-        app:menu="@menu/activity_home_drawer" />
+
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -77,14 +70,93 @@
             android:text="POPULAR COUNTRY TO STUDY ABROAD"/>
 
     </LinearLayout>
-    <android.support.v7.widget.RecyclerView
-        android:layout_marginTop="10dp"
-        android:id="@+id/Popular_Product"
-        android:layout_alignParentBottom="true"
-        android:scrollbars="horizontal"
-        android:layout_width="wrap_content"
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:id="@+id/Popular_Product"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:scrollbars="horizontal"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:padding="20dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <LinearLayout
+
+            android:id="@+id/UKRAINE_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="@drawable/border">
+
+            <ImageView
+                android:id="@+id/card_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/image"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="UKRAINE"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/mediumFont" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/RUSSIA_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            >
+
+            <ImageView
+                android:id="@+id/card_img2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/image"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+
+
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="RUSSIA"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/mediumFont" />
+        </LinearLayout>
+    </LinearLayout>
 </RelativeLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_home"
+        app:menu="@menu/activity_home_drawer" />
 </android.support.v4.widget.DrawerLayout>

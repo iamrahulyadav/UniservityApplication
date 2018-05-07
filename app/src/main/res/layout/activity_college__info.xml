@@ -11,27 +11,281 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-        <TextView
+
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="100dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/countryName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="India>"
+                        android:textSize="@dimen/mediumFontL" />
+
+                    <TextView
+
+                        android:id="@+id/universityName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Delhi University"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/mediumFontL" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/red"
+                    android:padding="5dp"
+                    android:text="OVERVIEW"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/largeFont"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <ImageView
+                        android:id="@+id/logo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/image" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Delhi University"
+                            android:textColor="@color/blue"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/overview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="University Info"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/image" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/red"
+                    android:padding="5dp"
+                    android:text="INTRODUCTION"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/largeFont"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/introduction"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:padding="5dp"
+                        android:text="This year's Google Play Awards will take place on Monday, May 7th, kicking off the week of Google I/O. Celebrating our third year, we're excited to highlight nine categories; some you may recognize from previous years, along with new additions highlighting growth areas and trends we're focused on, such as building for emerging markets.
+
+Each year, the Google Play Awards recognize top apps and games on Google Play. They represent some of the best experiences available on Android, with an emphasis on overall quality, strong design, technical performance, and innovation. The nominees were selected by various teams across Google, and all meet criteria thresholds covering high star rating, Android vitals, and have had a launch or major update since April 2017.
+
+Congratulations to this year's nominees below and don't forget to check them out on the Google Play store at g.co/play/gpa2018.INTRODUCTION  jhsfbj geaiubfmbKJGHK ZFJKSHGHLSNDHGUEIGFUQEN KJHDFLIHQEFJ FBEKLDJFGHILH DDFL IEHIUFOIQE JHAFKJHO IEAF EHFKJDFIL enafjkdhfioe "
+                        android:textColor="@color/black" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/red"
+                    android:padding="5dp"
+                    android:text="ELIGIBILITY"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/largeFont"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/eligibility"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:padding="5dp"
+                        android:text="This year's Google Play Awards will take place on Monday, May 7th, kicking off the week of Google I/O. Celebrating our third year, we're excited to highlight nine categories; some you may recognize from previous years, along with new additions highlighting growth areas and trends we're focused on, such as building for emerging markets.
+
+Each year, the Google Play Awards recognize top apps and games on Google Play. They represent some of the best experiences available on Android, with an emphasis on overall quality, strong design, technical performance, and innovation. The nominees were selected by various teams across Google, and all meet criteria thresholds covering high star rating, Android vitals, and have had a launch or major update since April 2017.
+
+Congratulations to this year's nominees below and don't forget to check them out on the Google Play store at g.co/play/gpa2018.INTRODUCTION  jhsfbj geaiubfmbKJGHK ZFJKSHGHLSNDHGUEIGFUQEN KJHDFLIHQEFJ FBEKLDJFGHILH DDFL IEHIUFOIQE JHAFKJHO IEAF EHFKJDFIL enafjkdhfioe "
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@color/red"
+                        android:padding="5dp"
+                        android:text="FACILITIES FOR STUDENT"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/largeFont"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/facilities"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:padding="5dp"
+                            android:text="This year's Google Play Awards will take place on Monday, May 7th, kicking off the week of Google I/O. Celebrating our third year, we're excited to highlight nine categories; some you may recognize from previous years, along with new additions highlighting growth areas and trends we're focused on, such as building for emerging markets.
+
+Each year, the Google Play Awards recognize top apps and games on Google Play. They represent some of the best experiences available on Android, with an emphasis on overall quality, strong design, technical performance, and innovation. The nominees were selected by various teams across Google, and all meet criteria thresholds covering high star rating, Android vitals, and have had a launch or major update since April 2017.
+
+Congratulations to this year's nominees below and don't forget to check them out on the Google Play store at g.co/play/gpa2018.INTRODUCTION  jhsfbj geaiubfmbKJGHK ZFJKSHGHLSNDHGUEIGFUQEN KJHDFLIHQEFJ FBEKLDJFGHILH DDFL IEHIUFOIQE JHAFKJHO IEAF EHFKJDFIL enafjkdhfioe "
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/red"
+                    android:padding="5dp"
+                    android:text="FEE STRUCTURE"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/largeFont"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:id="@+id/table"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+
+                    android:background="@drawable/border"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                </TableLayout>
+
+                <TextView
+                    android:id="@+id/feeDetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:text="This year's Google Play Awards will take place on Monday, May 7th, kicking off the week of Google I/O. Celebrating our third year, we're excited to highlight nine categories; some you may recognize from previous years, along with new additions highlighting growth areas and trends we're focused on, such as building for emerging markets."
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/red"
+                    android:padding="5dp"
+                    android:text="OUR SERVICES"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/largeFont"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/border"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/services"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:padding="5dp"
+                        android:text="This year's Google Play Awards will take place on Monday, May 7th, kicking off the week of Google I/O. Celebrating our third year, we're excited to highlight nine categories; some you may recognize from previous years, along with new additions highlighting growth areas and trends we're focused on, such as building for emerging markets.
+
+Each year, the Google Play Awards recognize top apps and games on Google Play. They represent some of the best experiences available on Android, with an emphasis on overall quality, strong design, technical performance, and innovation. The nominees were selected by various teams across Google, and all meet criteria thresholds covering high star rating, Android vitals, and have had a launch or major update since April 2017.
+
+Congratulations to this year's nominees below and don't forget to check them out on the Google Play store at g.co/play/gpa2018.INTRODUCTION  jhsfbj geaiubfmbKJGHK ZFJKSHGHLSNDHGUEIGFUQEN KJHDFLIHQEFJ FBEKLDJFGHILH DDFL IEHIUFOIQE JHAFKJHO IEAF EHFKJDFIL enafjkdhfioe "
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="India>"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Delhi University"
-                android:textColor="@color/black"/>
-        </LinearLayout>
-
-    </LinearLayout>
+            android:layout_alignParentBottom="true"
+            android:background="@color/green"
+            android:gravity="center"
+            android:text="Apply Now"
+            android:textColor="@color/white"
+            android:textSize="@dimen/largeFont"
+            android:textStyle="bold" />
+        </RelativeLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
