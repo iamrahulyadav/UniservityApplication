@@ -85,14 +85,7 @@ private String fromWhere;
             viewHolder.card_img.setImageResource(images_allUniversities[i]);
             viewHolder. card_college.setText(allUniversities[i]);
             viewHolder. card_course.setText("MBBS");
-            viewHolder.card_img.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Intent intent= new Intent(context,College_Info.class);
-                    //intent.putExtra("menu","RUSSIA");
-                    context.startActivity(intent);
-                }
-            });
+
         }else if(fromWhere.equals("Countries")) {
             viewHolder.card_img.setImageResource(images_countries[i]);
             viewHolder.card_college.setText(countries[i]);
@@ -150,6 +143,29 @@ private String fromWhere;
             card_img=itemView.findViewById(R.id.card_img);
             card_college=itemView.findViewById(R.id.card_college);
             card_course=itemView.findViewById(R.id.card_course);
+           card_img.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int i = getAdapterPosition();
+                    if(fromWhere.equals("Universities")){
+
+                        //return allUniversities.length;
+                    }else if(fromWhere.equals("Countries")) {
+                        //return countries.length;
+                        return;
+
+                    }else if(fromWhere.equals("UKRAINE")){
+                        //return college_ukrain.length;
+
+                    }else  if(fromWhere.equals("RUSSIA")){
+                        //return college_russia.length;
+                        i = i+8;
+                    }
+                    Intent intent= new Intent(context,College_Info.class);
+                    intent.putExtra("location",i);
+                    context.startActivity(intent);
+                }
+            });
     }
 
 

@@ -24,7 +24,7 @@ ImageView logo,image;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_college__info);
         JSONObject obj = new JSONObject();
-        University_Details_JsonObject university_details_jsonObject= new University_Details_JsonObject("one");
+        University_Details_JsonObject university_details_jsonObject= new University_Details_JsonObject(getIntent().getIntExtra("location",0));
         obj = university_details_jsonObject.returnUniversityData();
         Log.e("Details",obj.toString());
         setCollegeInfoDetails(obj);

@@ -9,10 +9,10 @@ import org.json.JSONObject;
  */
 
 public class University_Details_JsonObject {
-    private String varCollegeName;
+    private int varCollegeName;
 
 
-    public University_Details_JsonObject(String varCollegeName){
+    public University_Details_JsonObject(int varCollegeName){
         this.varCollegeName = varCollegeName;
     }
     public JSONObject returnUniversityData() {
@@ -21,8 +21,8 @@ public class University_Details_JsonObject {
             obj.put("country", "Ukraine");
             obj.put("name", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
             obj.put("overview", "Founded in 1841, Location- Kyiv, Ukraine, Site - http://nmu.ua/en/\nMCI & WHO Approved");
-            obj.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
-            obj.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj.put("logo", R.drawable.bogomolets_logo);
+            obj.put("image", R.drawable.bogomolets);
             obj.put("intoduction", "•\tFormed 176 years ago with an aim of providing excellence.\n" +
                     "•\tThe official history of the establishment started in 1841 when the medical faculty was established at Saint Volodymyr Emperor University in Kyiv.\n" +
                     "•\tStudents from around 65 countries came here to study medicine.\n" +
@@ -88,9 +88,8 @@ public class University_Details_JsonObject {
 
                 obj_Kharkiv.put("overview", " Established in the year 1805, Location- Kyiv, Ukraine, Site – http://www.knmu.kharkov.ua/\n MCI & WHO Approved");
 
-                obj_Kharkiv.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
-
-                obj_Kharkiv.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+                obj_Kharkiv.put("logo", R.drawable.kharkiv_logo);
+                obj_Kharkiv.put("image", R.drawable.kharkiv);
 
                 obj_Kharkiv.put("intoduction", "•\tone of the best MBBS Universities in Ukraine and boasts to accommodate and provide best in class education to nearly 7000 students every year on their campus.\n" +
                         "•\tMore than 4000 foreign students have been trained by the institute till now and are working in many public and private organisations around the world.\n" +
@@ -164,9 +163,8 @@ public class University_Details_JsonObject {
                     "Site – https://www.vnmu.edu.ua/en\n" +
                     "MCI & WHO Approved\n");
 
-            obj_Vinnitsa.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
-
-            obj_Vinnitsa.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_Vinnitsa.put("logo", R.drawable.vinnitsa_logo);
+            obj_Vinnitsa.put("image", R.drawable.vinnitsa);
 
             obj_Vinnitsa.put("intoduction", "•\tVinnitsa National Medical University was founded in 1921\n" +
                     "•\tSince 1994, the Vinnitsa Medical Institute has been certified and accredited to the IV level of accreditation and has been granted the status of the University.\n" +
@@ -238,9 +236,9 @@ public class University_Details_JsonObject {
             obj_ODESSA.put("overview", "Established in the year 1900, Location- Kyiv, Ukraine, Site – http://onmedu.edu.ua/\n" +
                     "MCI & WHO Approved\n");
 
-            obj_ODESSA.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_ODESSA.put("logo", R.drawable.odessa_logo);
 
-            obj_ODESSA.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_ODESSA.put("image", R.drawable.odessa);
 
             obj_ODESSA.put("intoduction", "•\tEstablished in the year 1900 Odessa National Medical University (ONMU).\n" +
                     "•\tOdessa National Medical University is a member of Medical Education In Europe (MEDINE).\n" +
@@ -312,9 +310,9 @@ public class University_Details_JsonObject {
             obj_Kiev.put("overview", "Established in the year 1992, Location- Kyiv, Ukraine, Site – http://knmu-edu.com.ua/\n" +
                     "MCI & WHO Approved\n");
 
-            obj_Kiev.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_Kiev.put("logo", R.drawable.kiev_logo);
 
-            obj_Kiev.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_Kiev.put("image", R.drawable.kiev);
 
             obj_Kiev.put("intoduction", "•\tEstablished in the year 1992 Kyiv Medical University of UAFM.\n" +
                     "•\tMore than 10000 doctors have graduated from the university till now in various speciality courses of General Medicine, Pharmacists and Dentistry.\n" +
@@ -387,9 +385,9 @@ public class University_Details_JsonObject {
                     " Site – http://www.dsma.dp.ua/en/eng\n" +
                     "MCI & WHO Approved\n");
 
-            obj_Dnipropetrovsk.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_Dnipropetrovsk.put("logo", R.drawable.dnipropetrovsk_logo);
 
-            obj_Dnipropetrovsk.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_Dnipropetrovsk.put("image", R.drawable.dnipropetrovsk);
 
             obj_Dnipropetrovsk.put("intoduction", "•\tEstablished in the year 1916 Dnipropetrovsk State Medical Academy..\n" +
                     "•\tEarlier known as Ekaterynoslavsky Higher Female Courses Institute, the academy was founded in the year 1916.\n" +
@@ -463,9 +461,9 @@ public class University_Details_JsonObject {
                     " Site – http://www.univer.kharkov.ua/\n" +
                     "MCI & WHO Approved\n");
 
-            obj_VN.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_VN.put("logo", R.drawable.vnkarazin_logo);
 
-            obj_VN.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_VN.put("image", R.drawable.vnkarazin);
 
             obj_VN.put("intoduction", "•\tEstablished in the year 1804.\n" +
                     "•\tIt is also called by the name Karazin University in Ukraine.\n" +
@@ -540,9 +538,9 @@ public class University_Details_JsonObject {
                     " Site – http://zsmu.edu.ua/\n" +
                     "MCI & WHO Approved\n");
 
-            obj_ZAPOROZHYE.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_ZAPOROZHYE.put("logo", R.drawable.zaporizhia_logo);
 
-            obj_ZAPOROZHYE.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_ZAPOROZHYE.put("image", R.drawable.zaporizhia);
 
             obj_ZAPOROZHYE.put("intoduction", "•\tEstablished in the year 1903.\n" +
                     "•\t1921, the institute was reorganised into Chemical-Pharmaceutical Institute.\n" +
@@ -622,9 +620,9 @@ public class University_Details_JsonObject {
                     "WHO Approved\n" +
                     "Google map - https://goo.gl/maps/4MgKZRUC6Sz\n");
 
-            obj_Moscow.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_Moscow.put("logo", R.drawable.moscow_logo);
 
-            obj_Moscow.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_Moscow.put("image", R.drawable.moscow);
 
             obj_Moscow.put("intoduction", "•\tOne of the oldest Russian institutions of higher education, Moscow University was established in 1755. In 1940 it was named after Academician Mikhail Lomonosov (1711 - 1765), an outstanding Russian scientist, who greatly contributed to the establishment of the university in Moscow.\n" +
                     "•\tIn January 2005 Lomonosov Moscow State University celebrated its 250th anniversary, over 800 various events being held on the occasion. Founded in the XVIII century, the University has been constantly growing and enco mpassing new branches of learning and research.\n" +
@@ -703,9 +701,9 @@ public class University_Details_JsonObject {
                     "WHO Approved\n" +
                     "Google map - https://goo.gl/maps/RLu343SnfqF2\n");
 
-            obj_PEOPLES.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_PEOPLES.put("logo", R.drawable.people_logo);
 
-            obj_PEOPLES.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_PEOPLES.put("image", R.drawable.people);
 
             obj_PEOPLES.put("intoduction", "The University was founded on 5th February, 1960 by the USSR Government. On 22nd February, 1961, the RUDN University was named after Patrice Lumumba — one of the symbols of the African peoples’ fight for independence. Students and academics could be free to pursue their learning, teaching, and research activities at, without being subject to political context, but firmly directed to the grand principles of friendship and mutual support. On February 5, 1992, by the decision of the Government of Russia, the University was renamed to Peoples' Friendship University of Russia.\n" +
                     "•\tMultinationalism and international cooperation.\n" +
@@ -783,9 +781,9 @@ public class University_Details_JsonObject {
                     "WHO Approved\n" +
                     "Google map - https://goo.gl/maps/d9ayHQwTE2u\n");
 
-            obj_STAVROPOL.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_STAVROPOL.put("logo", R.drawable.stavropol_logo);
 
-            obj_STAVROPOL.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_STAVROPOL.put("image", R.drawable.stavropol);
 
             obj_STAVROPOL.put("intoduction", "Stavropol State Medical University was founded in 1938. Since that time thousands of highly skilled specialists working all over the world were prepared at the University. Their successful career growth is the pride of our University. The University is situated in the large administrative, industrial, agricultural, scientific and cultural centre – the city of Stavropol which is considered a pearl of the South of Russia. Throughout several centuries the representatives of more than 100 nationalities with their original culture and traditions live there in peace and confidence. Nowadays, the University is one of the authoritative educational and scientific medical centres of our country. In 2010 all activity spheres of the University were licensed and the State Accreditation Certificate was received.\n" +
                     "The University has 75 chairs where 97 Doctors of Sciences, more than 300 Candidates of Sciences, 47 Honoured Physicians of the Russian Federation, 4 Honoured Scientists of the Russian Federation work. There are 7 faculties in the University where 4 500 Russian and foreign students from 33 countries of the world are trained. In 2011 in Stavropol State Medical University new lines for preparation of specialists are opened: defect ology, biology, biotechnology, physical training for persons with health deviations, economics, and social work.\n" +
@@ -865,9 +863,9 @@ public class University_Details_JsonObject {
                     "WHO Approved\n" +
                     "Google map - https://goo.gl/maps/B5v3FyCij4R2\n");
 
-            obj_SMOLENSK.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_SMOLENSK.put("logo", R.drawable.smolensk_logo);
 
-            obj_SMOLENSK.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_SMOLENSK.put("image", R.drawable.smolensk);
 
             obj_SMOLENSK.put("intoduction", "• The Smolensk State Medical University is a government medical college recognized by WHO and all countries of the world including USA, UK and India. \n" +
                     "• in the international rating the Smolensk State Medical University is placed on the 22nd position. \n" +
@@ -952,9 +950,9 @@ public class University_Details_JsonObject {
                     "WHO Approved\n" +
                     "Google map - https://goo.gl/maps/tDYJVKyny1w\n");
 
-            obj_KURSK.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_KURSK.put("logo", R.drawable.kursk_logo);
 
-            obj_KURSK.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_KURSK.put("image", R.drawable.kursk);
 
             obj_KURSK.put("intoduction", "Kursk – is one of the oldest Russian cities (the first annalistic mention of Kursk dates from 1032) and there are many famous events of the history of Russia related to Kursk for centuries.\n" +
                     "Almost one thousand years ago Kursk was the boundary fortress of the Russian land. From the earliest times it was the guardian of the borders in the south of Russia.\n" +
@@ -1024,9 +1022,9 @@ public class University_Details_JsonObject {
                     "WHO Approved\n" +
                     "Google map - https://goo.gl/maps/dgah3yyyCDF2\n");
 
-            obj_BASHKIR.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_BASHKIR.put("logo", R.drawable.bashkir_logo);
 
-            obj_BASHKIR.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_BASHKIR.put("image", R.drawable.bashkir);
 
             obj_BASHKIR.put("intoduction", "Bashkir State Medical University is one of the top Universities of Russia to study medicine. It is considered to be the centre of medical and pharmaceutical science of Bashkortostan Republic. This University is located in the Ufa City. For the last 80 years, Bashkir State Medical University has been training specialists for healthcare, scientific, and pedagogical work in the field of professional medical and pharmaceutical education of the Russian Federation. Among the Indian students, BMSU is one of the popular Universities for many years to pursue MBBS in Russia.\n" +
                     "The faculty of BSMU has famous scholars and medical practitioners who take care of teaching, medical, scientific and innovative activity. The University retains the study material and technical resources, training facilities, and a large library stock.\n" +
@@ -1098,9 +1096,9 @@ public class University_Details_JsonObject {
                     "WHO Approved\n" +
                     "Google map - https://goo.gl/maps/XP78xaxajxu\n");
 
-            obj_KAZAN.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_KAZAN.put("logo", R.drawable.kazan_logo);
 
-            obj_KAZAN.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_KAZAN.put("image", R.drawable.kazan);
 
             obj_KAZAN.put("intoduction", "Founded in 1814, Kazan State Medical University is a non-profit public higher education institution located in the urban setting of the large city of Kazan (population range of 1,000,000-5,000,000 inhabitants), Tatarstan Republic. This institution has also branch campuses in the following location(s): Naberegnie Chelni. Officially accredited and/or recognized by the Ministry of Education and Science of the Russian Federation, Kazan State Medical University (KSMU) is a small (uni Rank enrolment range: 4,000-4,999 students) coeducational higher education institution. Kazan State Medical University (KSMU) offers courses and programs leading to officially recognized higher education degrees such as bachelor degrees, master degrees, and doctorate degrees in several areas of study. See the uni Rank degree levels and areas of study matrix below for further details. This 204 years old higher-education institution has a selective admission policy based on entrance examinations and students' past academic record and grades. The admission rate range is 40-50% making this Russian higher education organization a averagely selective institution. International students are welcome to apply for enrolment.\n" +
                     "With 200 years of experience in medical training, KSMU is justifiably an international University. Around 700 students from more than 57 countries around the world study here and half of them study in English. Moreover, we have a large group of students from neighbouring and remote regions of Russia. We are proud that Kazan medical school is attractive for young people from different parts of the world. That is why our priority is support and care for international students.\n" +
@@ -1177,9 +1175,9 @@ public class University_Details_JsonObject {
                     "WHO Approved\n" +
                     "Google map - https://goo.gl/maps/24w49bHVK9s\n");
 
-            obj_VOLGOGRAD.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_VOLGOGRAD.put("logo", R.drawable.volgograd_logo);
 
-            obj_VOLGOGRAD.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_VOLGOGRAD.put("image", R.drawable.volgograd);
 
             obj_VOLGOGRAD.put("intoduction", "The University started as Stalingrad Medical Institute founded in 1935. In 1993 it got the status of the Academy, and in 2003 it was granted the status of the University. The University is currently headed by the prominent Russian scientist, Academician of the Russian Academy for Medical Sciences, Professor Vladimir I. Petrov.\n" +
                     "The Volgograd State Medical University is an active participant of a number of international projects promoting medical research and clinical practice. This accounts for a genuine interest in the activities of the University on the part of government officials of various countries. It has recently been visited by the ambassadors of the USA, Malaysia, India, the People’s Republic of China, Brunei, Bangladesh, etc., top officials of Medical and Dental Councils of different countries.\n" +
@@ -1258,9 +1256,9 @@ public class University_Details_JsonObject {
                     "WHO Approved\n" +
                     "Google map - https://goo.gl/maps/nEVUCjRq6tj\n");
 
-            obj_KIROV.put("logo", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_KIROV.put("logo", R.drawable.kirov_logo);
 
-            obj_KIROV.put("image", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
+            obj_KIROV.put("image", R.drawable.kirov);
 
             obj_KIROV.put("intoduction", "The History of Kirov State Medical University starts on the 2nd of August, 1987, when by the order of the Ministry Council of the USSR an affiliate of Perm State Medical Institute was founded in Kirov. The resolution of creating the branch was carried after a working visit of a government commission headed by the Minister of Healthcare of RSFSR A.I. Potapov and the rector of Perm SMI E.A. Vagner in Kirov. Thanks to the great support of the first secretary of Kirov Regional Committee of Communist Party of Soviet Union V.V. Bakatin and the head of regional healthcare department G.F. Shulyatiev the affiliate was given a number of buildings for the placement of theoretical and biology departments, administrative and utility services.\n" +
                     "In 2002 Kirov State Medical Academy marked 15 years and a 10th group of doctors graduated from the Academy. The same year prof. V.S. Melnikov M.D. became the head of the Academy. The academy traditionally cooperated with practical healthcare, developed scientific and research activity. Two years later Viktor Sergeevich Melnikov died from a severe disease.\n" +
@@ -1322,7 +1320,61 @@ public class University_Details_JsonObject {
         } catch (JSONException e) {
                 e.printStackTrace();
             }
-            return obj;
+            //return obj;
+        switch (varCollegeName){
+            case 0:
+
+                break;
+            case 1:
+
+                break;
+            case 2:
+
+                break;
+            case 3:
+
+                break;
+            case 4:
+
+                break;
+            case 5:
+
+                break;
+            case 6:
+
+                break;
+            case 7:
+
+                break;
+            case 8:
+
+                break;
+            case 9:
+
+                break;
+            case 10:
+
+                break;
+            case 11:
+
+                break;
+            case 12:
+
+                break;
+            case 13:
+
+                break;
+            case 14:
+
+                break;
+            case 15:
+
+                break;
+
+            case 16:
+
+                break;
+        }
         }
 
     }
