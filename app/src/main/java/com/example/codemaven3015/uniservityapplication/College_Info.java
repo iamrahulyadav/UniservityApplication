@@ -61,9 +61,13 @@ ImageView logo,image;
             JSONObject feeFirstColumn = new JSONObject();
             feeFirstColumn = fee.getJSONObject(0);
             TableLayout stk = (TableLayout) findViewById(R.id.table);
+            TableRow.LayoutParams lp1 = (new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
+
+            lp1.weight = 1;
 
             TableRow tbrow0 = new TableRow(this);
 
+            tbrow0.setLayoutParams(lp1);
             TableRow.LayoutParams lp = (new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT));
 
             lp.weight = 0.2f;
@@ -123,6 +127,7 @@ ImageView logo,image;
                JSONObject obj = new JSONObject();
                obj = fee.getJSONObject(i);
                 final TableRow tbrow = new TableRow(this);
+                tbrow.setLayoutParams(lp1);
                 //tbrow.setBackground(getResources().getDrawable(R.drawable.selector_focus));
                 lp.weight = 0.2f;
                 TextView t1v = new TextView(this);

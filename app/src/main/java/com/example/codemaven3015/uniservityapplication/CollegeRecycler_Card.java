@@ -23,15 +23,28 @@ private String fromWhere;
         this.context = context;
         this.fromWhere=fromWhere;
     }
-    private int[] images = {
-            R.drawable.image,R.drawable.image,R.drawable.image,
-            R.drawable.image,R.drawable.image,R.drawable.image,
-            R.drawable.image,R.drawable.image,R.drawable.image,
+    private int[] images_countries = {R.drawable.ukraine_flag,
+            R.drawable.russian_flag
+    };
+    private int[] images_ukrain = {
+            R.drawable.bogomolets_logo,R.drawable.kharkiv_logo,R.drawable.vinnitsa_logo,
+            R.drawable.odessa_logo,R.drawable.kiev_logo,R.drawable.dnipropetrovsk_logo,
+            R.drawable.vnkarazin_logo,R.drawable.zaporizhia_logo};
 
-            R.drawable.image,R.drawable.image,R.drawable.image,
-            R.drawable.image,R.drawable.image,R.drawable.image,
-            R.drawable.image,R.drawable.image,R.drawable.image};
+    private int[] images_russia ={
+            R.drawable.moscow_logo,R.drawable.people_logo,R.drawable.stavropol_logo,
+            R.drawable.smolensk_logo,R.drawable.kursk_logo,R.drawable.bashkir_logo,
+            R.drawable.kazan_logo,R.drawable.volgograd_logo,R.drawable.kirov_logo};
 
+
+    private int[] images_allUniversities = {
+            R.drawable.bogomolets_logo,R.drawable.kharkiv_logo,R.drawable.vinnitsa_logo,
+            R.drawable.odessa_logo,R.drawable.kiev_logo,R.drawable.dnipropetrovsk_logo,
+            R.drawable.vnkarazin_logo,R.drawable.zaporizhia_logo,
+            R.drawable.moscow_logo,R.drawable.people_logo,R.drawable.stavropol_logo,
+            R.drawable.smolensk_logo,R.drawable.kursk_logo,R.drawable.bashkir_logo,
+            R.drawable.kazan_logo,R.drawable.volgograd_logo,R.drawable.kirov_logo
+            };
 
     private String[] countries ={"Ukrain","Russia"};
     private String[] college_ukrain = {"BOGOMOLETS NATIONALMEDICAL UNIVERSITY","Kharkiv National Medical University","Vinnitsa National Medical University",
@@ -69,7 +82,7 @@ private String fromWhere;
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
 
         if(fromWhere.equals("Universities")){
-            viewHolder.card_img.setImageResource(images[i]);
+            viewHolder.card_img.setImageResource(images_allUniversities[i]);
             viewHolder. card_college.setText(allUniversities[i]);
             viewHolder. card_course.setText("MBBS");
             viewHolder.card_img.setOnClickListener(new View.OnClickListener() {
@@ -81,7 +94,7 @@ private String fromWhere;
                 }
             });
         }else if(fromWhere.equals("Countries")) {
-            viewHolder.card_img.setImageResource(images[i]);
+            viewHolder.card_img.setImageResource(images_countries[i]);
             viewHolder.card_college.setText(countries[i]);
             viewHolder.card_course.setText("");
             viewHolder.card_img.setOnClickListener(new View.OnClickListener() {
@@ -94,13 +107,13 @@ private String fromWhere;
             });
         }else if(fromWhere.equals("UKRAINE")){
 
-            viewHolder.card_img.setImageResource(images[i]);
+            viewHolder.card_img.setImageResource(images_ukrain[i]);
             viewHolder. card_college.setText(college_ukrain[i]);
             viewHolder. card_course.setText("MBBS");
 
         }else  if(fromWhere.equals("RUSSIA")){
 
-            viewHolder.card_img.setImageResource(images[i]);
+            viewHolder.card_img.setImageResource(images_russia[i]);
             viewHolder. card_college.setText(college_russia[i]);
             viewHolder. card_course.setText("MBBS");
         }
