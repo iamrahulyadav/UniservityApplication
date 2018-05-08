@@ -64,25 +64,19 @@ public class University_Details_JsonObject {
 
             JSONArray feeArray = new JSONArray();
             JSONObject temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "O.O BOGOMOLETS KIEV NATIONAL MEDICAL UNIVERSITY, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
+
 
             JSONObject temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "6000 US Dollars");
-            temp_obj2.put("column3", "1800 US Dollars/ year");
-            temp_obj2.put("column4", "7800 US Dollars");
-            temp_obj2.put("column5", "RS. 4,68,000 (approx.)");
+            temp_obj2.put("column2", "$6000");
+            temp_obj2.put("column3", "$1800");
+            temp_obj2.put("column4", "$7800");
+            temp_obj2.put("column5", "₹4,68,000");
 
             JSONObject temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4500 US Dollars/year");
-            temp_obj3.put("column3", "1800 US Dollars/ year");
-            temp_obj3.put("column4", "6300 US Dollars/ year");
-            temp_obj3.put("column5", "RS. 3,78,000/ Year (approx.)");
+            temp_obj3.put("column2", "$4500");
+            temp_obj3.put("column3", "$1800");
+            temp_obj3.put("column4", "$6300");
+            temp_obj3.put("column5", "₹3,78,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -134,26 +128,18 @@ public class University_Details_JsonObject {
                         "•\tSecurity is very high and there are very less crime registered.\n");
 
                  feeArray= new JSONArray();
-                temp_obj1 = new JSONObject();
-                temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-                temp_obj1.put("column2", "TUITION FEE / YEAR");
-                temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-                temp_obj1.put("column4", "TOTAL FEES IN USD");
-                temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
 
                  temp_obj2 = new JSONObject();
-                temp_obj2.put("column1", "1st Year Fees");
-                temp_obj2.put("column2", "5300 US Dollars");
-                temp_obj2.put("column3", "1200 US Dollars/ year");
-                temp_obj2.put("column4", "6500 US Dollars	");
-                temp_obj2.put("column5", "RS. 3,90,000 (approx.)");
+                temp_obj2.put("column2", "$5300");
+                temp_obj2.put("column3", "$1200");
+                temp_obj2.put("column4", "$6500");
+                temp_obj2.put("column5", "₹3,90,000");
 
                  temp_obj3 = new JSONObject();
-                temp_obj3.put("column1", "2nd to 6th year Fees");
-                temp_obj3.put("column2", "4300  US Dollars/year");
-                temp_obj3.put("column3", "1200  US Dollars/ year");
-                temp_obj3.put("column4", "5500  US Dollars/ year");
-                temp_obj3.put("column5", "RS. 3,30,000/ Year (approx.)");
+                temp_obj3.put("column2", "$4300");
+                temp_obj3.put("column3", "$1200");
+                temp_obj3.put("column4", "$5500");
+                temp_obj3.put("column5", "₹3,30,000");
                 feeArray.put(temp_obj1);
                 feeArray.put(temp_obj2);
                 feeArray.put(temp_obj3);
@@ -209,25 +195,18 @@ public class University_Details_JsonObject {
 
             feeArray= new JSONArray();
             temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Vinnitsa National Medical University,  UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
 
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column2", "$5600");
+            temp_obj2.put("column3", "$1000");
+            temp_obj2.put("column4", "$6600");
+            temp_obj2.put("column5", "₹3,96,000");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column2", "$4400");
+            temp_obj3.put("column3", "$1000");
+            temp_obj3.put("column4", "$5400");
+            temp_obj3.put("column5", "₹3,24,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -284,25 +263,18 @@ public class University_Details_JsonObject {
 
             feeArray= new JSONArray();
             temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Odessa National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
 
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column2", "$5500");
+            temp_obj2.put("column3", "$1500");
+            temp_obj2.put("column4", "$7000");
+            temp_obj2.put("column5", "₹4,20,000");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column2", "$4000");
+            temp_obj3.put("column3", "$1500");
+            temp_obj3.put("column4", "$5500");
+            temp_obj3.put("column5", "₹3,30,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -355,26 +327,17 @@ public class University_Details_JsonObject {
                     "•\tSecurity is very high and there are very less crime registered.\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column2", "$5200");
+            temp_obj2.put("column3", "$1500");
+            temp_obj2.put("column4", "$6700");
+            temp_obj2.put("column5", "₹4,02,000 ");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column2", "$3500 ");
+            temp_obj3.put("column3", "$500 ");
+            temp_obj3.put("column4", "$4000 ");
+            temp_obj3.put("column5", "₹2,40,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -432,26 +395,17 @@ public class University_Details_JsonObject {
                     "•\tSecurity is very high and there are very less crime registered.\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column2", "$4700");
+            temp_obj2.put("column3", "$1200");
+            temp_obj2.put("column4", "$5900");
+            temp_obj2.put("column5", "₹30,50,000");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column2", "$3500");
+            temp_obj3.put("column3", "$1200");
+            temp_obj3.put("column4", "$4700");
+            temp_obj3.put("column5", "₹2,82,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -510,26 +464,17 @@ public class University_Details_JsonObject {
                     "•\tSecurity is very high and there are very less crime registered.\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column2", "$5300 ");
+            temp_obj2.put("column3", "$1200");
+            temp_obj2.put("column4", "$6500 ");
+            temp_obj2.put("column5", "₹3,90,000 ");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column2", "$4200 ");
+            temp_obj3.put("column3", "$1200 ");
+            temp_obj3.put("column4", "$5400 ");
+            temp_obj3.put("column5", "₹3,34,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -586,26 +531,17 @@ public class University_Details_JsonObject {
                     "•\tSecurity is very high and there are very less crime registered.\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column2", "$5000 ");
+            temp_obj2.put("column3", "$1200 ");
+            temp_obj2.put("column4", "$6200 ");
+            temp_obj2.put("column5", "₹3,72,000 ");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column2", "$4000 ");
+            temp_obj3.put("column3", "$1200 ");
+            temp_obj3.put("column4", "$5200 ");
+            temp_obj3.put("column5", "₹3,12,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -667,27 +603,58 @@ public class University_Details_JsonObject {
                     "•\tHospital\n" +
                     "•\tLibrary\n");
 
+            JSONObject temp_obj4 = new JSONObject();
+            JSONObject temp_obj5 = new JSONObject();
+            JSONObject temp_obj6 = new JSONObject();
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
+
 
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column1", "8000");
+            temp_obj2.put("column2", "8000");
+            temp_obj2.put("column3", "8000");
+            temp_obj2.put("column4", "8000");
+            temp_obj2.put("column5", "8000");
+            temp_obj2.put("column6", "8000");
+            temp_obj2.put("column7", "48000");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column1", "5,20,000");
+            temp_obj3.put("column2", "5,20,000");
+            temp_obj3.put("column3", "5,20,000");
+            temp_obj3.put("column4", "5,20,000");
+            temp_obj3.put("column5", "5,20,000");
+            temp_obj3.put("column6", "5,20,000");
+            temp_obj3.put("column7", "31,20,000");
+
+            temp_obj4 = new JSONObject();
+            temp_obj4.put("column1", "-");
+            temp_obj4.put("column2", "-");
+            temp_obj4.put("column3", "-");
+            temp_obj4.put("column4", "-");
+            temp_obj4.put("column5", "-");
+            temp_obj4.put("column6", "-");
+            temp_obj4.put("column7", "-");
+
+            temp_obj5 = new JSONObject();
+            temp_obj5.put("column1", "1,56,000");
+            temp_obj5.put("column2", "1,56,000");
+            temp_obj5.put("column3", "1,56,000");
+            temp_obj5.put("column4", "1,56,000");
+            temp_obj5.put("column5", "1,56,000");
+            temp_obj5.put("column6", "1,56,000");
+            temp_obj5.put("column7", "9,86,000");
+
+            temp_obj6 = new JSONObject();
+            temp_obj6.put("column1", "6,76,000");
+            temp_obj6.put("column2", "6,76,000");
+            temp_obj6.put("column3", "6,76,000");
+            temp_obj6.put("column4", "6,76,000");
+            temp_obj6.put("column5", "6,76,000");
+            temp_obj6.put("column6", "6,76,000");
+            temp_obj6.put("column7", "40,56,000");
+
+
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -748,26 +715,50 @@ public class University_Details_JsonObject {
                     "•\tLibrary\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column1", "7800");
+            temp_obj2.put("column2", "7800");
+            temp_obj2.put("column3", "7800");
+            temp_obj2.put("column4", "7800");
+            temp_obj2.put("column5", "7800");
+            temp_obj2.put("column6", "7800");
+            temp_obj2.put("column7", "46800");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column1", "5,07,000");
+            temp_obj3.put("column2", "5,07,000");
+            temp_obj3.put("column3", "5,07,000");
+            temp_obj3.put("column4", "5,07,000");
+            temp_obj3.put("column5", "5,07,000");
+            temp_obj3.put("column6", "5,07,000");
+            temp_obj3.put("column7", "30,42,000");
+
+            temp_obj4 = new JSONObject();
+            temp_obj4.put("column1", "-");
+            temp_obj4.put("column2", "-");
+            temp_obj4.put("column3", "-");
+            temp_obj4.put("column4", "-");
+            temp_obj4.put("column5", "-");
+            temp_obj4.put("column6", "-");
+            temp_obj4.put("column7", "-");
+
+            temp_obj5 = new JSONObject();
+            temp_obj5.put("column1", "65,000");
+            temp_obj5.put("column2", "65,000");
+            temp_obj5.put("column3", "65,000");
+            temp_obj5.put("column4", "65,000");
+            temp_obj5.put("column5", "65,000");
+            temp_obj5.put("column6", "65,000");
+            temp_obj5.put("column7", "3,90,000");
+
+            temp_obj6 = new JSONObject();
+            temp_obj6.put("column1", "5,72,000");
+            temp_obj6.put("column2", "5,72,000");
+            temp_obj6.put("column3", "5,72,000");
+            temp_obj6.put("column4", "5,72,000");
+            temp_obj6.put("column5", "5,72,000");
+            temp_obj6.put("column6", "5,72,000");
+            temp_obj6.put("column7", "34,32,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -830,26 +821,51 @@ public class University_Details_JsonObject {
                     "Library\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column1", "4400");
+            temp_obj2.put("column2", "4400");
+            temp_obj2.put("column3", "4400");
+            temp_obj2.put("column4", "4400");
+            temp_obj2.put("column5", "4400");
+            temp_obj2.put("column6", "4400");
+            temp_obj2.put("column7", "26,400");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column1", "2,86,000");
+            temp_obj3.put("column2", "2,86,000");
+            temp_obj3.put("column3", "2,86,000");
+            temp_obj3.put("column4", "2,86,000");
+            temp_obj3.put("column5", "2,86,000");
+            temp_obj3.put("column6", "2,86,000");
+            temp_obj3.put("column7", "17,16,000");
+
+            temp_obj4 = new JSONObject();
+            temp_obj4.put("column1", "-");
+            temp_obj4.put("column2", "-");
+            temp_obj4.put("column3", "-");
+            temp_obj4.put("column4", "-");
+            temp_obj4.put("column5", "-");
+            temp_obj4.put("column6", "-");
+            temp_obj4.put("column7", "-");
+
+
+            temp_obj5 = new JSONObject();
+            temp_obj5.put("column1", "45,500");
+            temp_obj5.put("column2", "45,500");
+            temp_obj5.put("column3", "45,500");
+            temp_obj5.put("column4", "45,500");
+            temp_obj5.put("column5", "45,500");
+            temp_obj5.put("column6", "45,500");
+            temp_obj5.put("column7", "2,73,000");
+
+            temp_obj6 = new JSONObject();
+            temp_obj6.put("column1", "3,31,500");
+            temp_obj6.put("column2", "3,31,500");
+            temp_obj6.put("column3", "3,31,500");
+            temp_obj6.put("column4", "3,31,500");
+            temp_obj6.put("column5", "3,31,500");
+            temp_obj6.put("column6", "3,31,500");
+            temp_obj6.put("column7", "19,89,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -917,26 +933,51 @@ public class University_Details_JsonObject {
                     "•\tLibrary\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column1", "5200");
+            temp_obj2.put("column2", "5200");
+            temp_obj2.put("column3", "5200");
+            temp_obj2.put("column4", "5200");
+            temp_obj2.put("column5", "5200");
+            temp_obj2.put("column6", "5200");
+            temp_obj2.put("column7", "31200");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column1", "3,38,000");
+            temp_obj3.put("column2", "3,38,000");
+            temp_obj3.put("column3", "3,38,000");
+            temp_obj3.put("column4", "3,38,000");
+            temp_obj3.put("column5", "3,38,000");
+            temp_obj3.put("column6", "3,38,000");
+            temp_obj3.put("column7", "20,28,000");
+
+            temp_obj4 = new JSONObject();
+            temp_obj4.put("column1", "-");
+            temp_obj4.put("column2", "-");
+            temp_obj4.put("column3", "-");
+            temp_obj4.put("column4", "-");
+            temp_obj4.put("column5", "-");
+            temp_obj4.put("column6", "-");
+            temp_obj4.put("column7", "-");
+
+
+            temp_obj5 = new JSONObject();
+            temp_obj5.put("column1", "32,500");
+            temp_obj5.put("column2", "32,500");
+            temp_obj5.put("column3", "32,500");
+            temp_obj5.put("column4", "32,500");
+            temp_obj5.put("column5", "32,500");
+            temp_obj5.put("column6", "32,500");
+            temp_obj5.put("column7", "1,98,000");
+
+            temp_obj6 = new JSONObject();
+            temp_obj6.put("column1", "370500");
+            temp_obj6.put("column2", "370500");
+            temp_obj6.put("column3", "370500");
+            temp_obj6.put("column4", "370500");
+            temp_obj6.put("column5", "370500");
+            temp_obj6.put("column6", "370500");
+            temp_obj6.put("column7", "22,23,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -991,26 +1032,50 @@ public class University_Details_JsonObject {
                     "•\tLibrary\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column1", "5000");
+            temp_obj2.put("column2", "5000");
+            temp_obj2.put("column3", "5000");
+            temp_obj2.put("column4", "5000");
+            temp_obj2.put("column5", "5000");
+            temp_obj2.put("column6", "5000");
+            temp_obj2.put("column7", "30,000");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column1", "3,25,000");
+            temp_obj3.put("column2", "3,25,000");
+            temp_obj3.put("column3", "3,25,000");
+            temp_obj3.put("column4", "3,25,000");
+            temp_obj3.put("column5", "3,25,000");
+            temp_obj3.put("column6", "3,25,000");
+            temp_obj3.put("column7", "19,50,000");
+
+            temp_obj4 = new JSONObject();
+            temp_obj4.put("column1", "-");
+            temp_obj4.put("column2", "-");
+            temp_obj4.put("column3", "-");
+            temp_obj4.put("column4", "-");
+            temp_obj4.put("column5", "-");
+            temp_obj4.put("column6", "-");
+            temp_obj4.put("column7", "-");
+
+            temp_obj5 = new JSONObject();
+            temp_obj5.put("column1", "78,000");
+            temp_obj5.put("column2", "78,000");
+            temp_obj5.put("column3", "78,000");
+            temp_obj5.put("column4", "78,000");
+            temp_obj5.put("column5", "78,000");
+            temp_obj5.put("column6", "78,000");
+            temp_obj5.put("column7", "4,68,000");
+
+            temp_obj6 = new JSONObject();
+            temp_obj6.put("column1", "4,03,000");
+            temp_obj6.put("column2", "4,03,000");
+            temp_obj6.put("column3", "4,03,000");
+            temp_obj6.put("column4", "4,03,000");
+            temp_obj6.put("column5", "4,03,000");
+            temp_obj6.put("column6", "4,03,000");
+            temp_obj6.put("column7", "24,18,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -1065,26 +1130,50 @@ public class University_Details_JsonObject {
                     "•\tLibrary\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column1", "5500");
+            temp_obj2.put("column2", "5500");
+            temp_obj2.put("column3", "5500");
+            temp_obj2.put("column4", "5500");
+            temp_obj2.put("column5", "5500");
+            temp_obj2.put("column6", "5500");
+            temp_obj2.put("column7", "19000");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column1", "3,57,500");
+            temp_obj3.put("column2", "3,57,500");
+            temp_obj3.put("column3", "3,57,500");
+            temp_obj3.put("column4", "3,57,500");
+            temp_obj3.put("column5", "3,57,500");
+            temp_obj3.put("column6", "3,57,500");
+            temp_obj3.put("column7", "12,85,000");
+
+            temp_obj4 = new JSONObject();
+            temp_obj4.put("column1", "-");
+            temp_obj4.put("column2", "-");
+            temp_obj4.put("column3", "-");
+            temp_obj4.put("column4", "-");
+            temp_obj4.put("column5", "-");
+            temp_obj4.put("column6", "-");
+            temp_obj4.put("column7", "-");
+
+            temp_obj5 = new JSONObject();
+            temp_obj5.put("column1", "16250");
+            temp_obj5.put("column2", "16250");
+            temp_obj5.put("column3", "16250");
+            temp_obj5.put("column4", "16250");
+            temp_obj5.put("column5", "16250");
+            temp_obj5.put("column6", "16250");
+            temp_obj5.put("column7", "97,500");
+
+            temp_obj6 = new JSONObject();
+            temp_obj6.put("column1", "3,75,750");
+            temp_obj6.put("column2", "3,75,750");
+            temp_obj6.put("column3", "3,75,750");
+            temp_obj6.put("column4", "3,75,750");
+            temp_obj6.put("column5", "3,75,750");
+            temp_obj6.put("column6", "3,75,750");
+            temp_obj6.put("column7", "13,32,500");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -1143,26 +1232,50 @@ public class University_Details_JsonObject {
                     "•\tLibrary\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column1", "4500");
+            temp_obj2.put("column2", "4500");
+            temp_obj2.put("column3", "4500");
+            temp_obj2.put("column4", "4500");
+            temp_obj2.put("column5", "4500");
+            temp_obj2.put("column6", "4500");
+            temp_obj2.put("column7", "27000");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column1", "2,70,000");
+            temp_obj3.put("column2", "2,70,000");
+            temp_obj3.put("column3", "2,70,000");
+            temp_obj3.put("column4", "2,70,000");
+            temp_obj3.put("column5", "2,70,000");
+            temp_obj3.put("column6", "2,70,000");
+            temp_obj3.put("column7", "15,20,000");
+
+            temp_obj4 = new JSONObject();
+            temp_obj4.put("column1", "-");
+            temp_obj4.put("column2", "-");
+            temp_obj4.put("column3", "-");
+            temp_obj4.put("column4", "-");
+            temp_obj4.put("column5", "-");
+            temp_obj4.put("column6", "-");
+            temp_obj4.put("column7", "-");
+
+            temp_obj5 = new JSONObject();
+            temp_obj5.put("column1", "18,000");
+            temp_obj5.put("column2", "18,000");
+            temp_obj5.put("column3", "18,000");
+            temp_obj5.put("column4", "18,000");
+            temp_obj5.put("column5", "18,000");
+            temp_obj5.put("column6", "18,000");
+            temp_obj5.put("column7", "1,08,000");
+
+            temp_obj6 = new JSONObject();
+            temp_obj6.put("column1", "2,88,000");
+            temp_obj6.put("column2", "2,88,000");
+            temp_obj6.put("column3", "2,88,000");
+            temp_obj6.put("column4", "2,88,000");
+            temp_obj6.put("column5", "2,88,000");
+            temp_obj6.put("column6", "2,88,000");
+            temp_obj6.put("column7", "17,28,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -1223,26 +1336,50 @@ public class University_Details_JsonObject {
                     "•\tLibrary\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column1", "5630");
+            temp_obj2.put("column2", "5630");
+            temp_obj2.put("column3", "5630");
+            temp_obj2.put("column4", "5630");
+            temp_obj2.put("column5", "5630");
+            temp_obj2.put("column6", "5630");
+            temp_obj2.put("column7", "33780");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column1", "365950");
+            temp_obj3.put("column2", "365950");
+            temp_obj3.put("column3", "365950");
+            temp_obj3.put("column4", "365950");
+            temp_obj3.put("column5", "365950");
+            temp_obj3.put("column6", "365950");
+            temp_obj3.put("column7", "21,95700");
+
+            temp_obj4 = new JSONObject();
+            temp_obj4.put("column1", "-");
+            temp_obj4.put("column2", "-");
+            temp_obj4.put("column3", "-");
+            temp_obj4.put("column4", "-");
+            temp_obj4.put("column5", "-");
+            temp_obj4.put("column6", "-");
+            temp_obj4.put("column7", "-");
+
+            temp_obj5 = new JSONObject();
+            temp_obj5.put("column1", "35750");
+            temp_obj5.put("column2", "35750");
+            temp_obj5.put("column3", "35750");
+            temp_obj5.put("column4", "35750");
+            temp_obj5.put("column5", "35750");
+            temp_obj5.put("column6", "35750");
+            temp_obj5.put("column7", "35750");
+
+            temp_obj6 = new JSONObject();
+            temp_obj6.put("column1", "401700");
+            temp_obj6.put("column2", "401700");
+            temp_obj6.put("column3", "401700");
+            temp_obj6.put("column4", "401700");
+            temp_obj6.put("column5", "401700");
+            temp_obj6.put("column6", "401700");
+            temp_obj6.put("column7", "24,102,00");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
@@ -1299,26 +1436,50 @@ public class University_Details_JsonObject {
                     "•\tLibrary\n");
 
             feeArray= new JSONArray();
-            temp_obj1 = new JSONObject();
-            temp_obj1.put("column1", "Kharkiv National Medical University, UKRAINE");
-            temp_obj1.put("column2", "TUITION FEE / YEAR");
-            temp_obj1.put("column3", "HOSTEL FEE + HEALTH INSURANCE / YEAR");
-            temp_obj1.put("column4", "TOTAL FEES IN USD");
-            temp_obj1.put("column5", "TOTAL FEE IN RUPEES");
-
             temp_obj2 = new JSONObject();
-            temp_obj2.put("column1", "1st Year Fees");
-            temp_obj2.put("column2", "5600  US Dollars");
-            temp_obj2.put("column3", "1000  US Dollars/ year");
-            temp_obj2.put("column4", "6600  US Dollars	");
-            temp_obj2.put("column5", "RS.3,96,000(approx.)");
+            temp_obj2.put("column1", "4200");
+            temp_obj2.put("column2", "4200");
+            temp_obj2.put("column3", "4200");
+            temp_obj2.put("column4", "4200");
+            temp_obj2.put("column5", "4200");
+            temp_obj2.put("column6", "4200");
+            temp_obj2.put("column7", "25200");
 
             temp_obj3 = new JSONObject();
-            temp_obj3.put("column1", "2nd to 6th year Fees");
-            temp_obj3.put("column2", "4400 US Dollars/year");
-            temp_obj3.put("column3", "1000 US Dollars/ year");
-            temp_obj3.put("column4", "5400 US Dollars/ year");
-            temp_obj3.put("column5", "RS.3,24,000/ Year (approx.)");
+            temp_obj3.put("column1", "2,78,000");
+            temp_obj3.put("column2", "2,78,000");
+            temp_obj3.put("column3", "2,78,000");
+            temp_obj3.put("column4", "2,78,000");
+            temp_obj3.put("column5", "2,78,000");
+            temp_obj3.put("column6", "2,78,000");
+            temp_obj3.put("column7", "16,38,000");
+
+            temp_obj4 = new JSONObject();
+            temp_obj4.put("column1", "-");
+            temp_obj4.put("column2", "-");
+            temp_obj4.put("column3", "-");
+            temp_obj4.put("column4", "-");
+            temp_obj4.put("column5", "-");
+            temp_obj4.put("column6", "-");
+            temp_obj4.put("column7", "-");
+
+            temp_obj5 = new JSONObject();
+            temp_obj5.put("column1", "26000");
+            temp_obj5.put("column2", "26000");
+            temp_obj5.put("column3", "26000");
+            temp_obj5.put("column4", "26000");
+            temp_obj5.put("column5", "26000");
+            temp_obj5.put("column6", "26000");
+            temp_obj5.put("column7", "1,56,000");
+
+            temp_obj6 = new JSONObject();
+            temp_obj6.put("column1", "2,99,000");
+            temp_obj6.put("column2", "2,99,000");
+            temp_obj6.put("column3", "2,99,000");
+            temp_obj6.put("column4", "2,99,000");
+            temp_obj6.put("column5", "2,99,000");
+            temp_obj6.put("column6", "2,99,000");
+            temp_obj6.put("column7", "17,94,000");
             feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
