@@ -17,6 +17,22 @@ public class University_Details_JsonObject {
     }
     public JSONObject returnUniversityData() {
         JSONObject obj = new JSONObject();
+        JSONObject obj_Kharkiv = new JSONObject();
+        JSONObject obj_Vinnitsa = new JSONObject();
+        JSONObject obj_ODESSA = new JSONObject();
+        JSONObject obj_Kiev = new JSONObject();
+        JSONObject obj_Dnipropetrovsk = new JSONObject();
+        JSONObject obj_VN = new JSONObject();
+        JSONObject obj_ZAPOROZHYE = new JSONObject();
+        JSONObject obj_Moscow = new JSONObject();
+        JSONObject obj_PEOPLES = new JSONObject();
+        JSONObject obj_STAVROPOL = new JSONObject();
+        JSONObject obj_SMOLENSK = new JSONObject();
+        JSONObject obj_KURSK = new JSONObject();
+        JSONObject obj_BASHKIR = new JSONObject();
+        JSONObject obj_KAZAN = new JSONObject();
+        JSONObject obj_VOLGOGRAD = new JSONObject();
+        JSONObject obj_KIROV = new JSONObject();
         try {
             obj.put("country", "Ukraine");
             obj.put("name", "BOGOMOLETS NATIONALMEDICAL UNIVERSITY");
@@ -81,7 +97,7 @@ public class University_Details_JsonObject {
                     "•\tAccommodations Related complete Assistance.\n");
 
 
-            JSONObject obj_Kharkiv = new JSONObject();
+
                 obj_Kharkiv.put("country", "Ukraine");
 
                 obj_Kharkiv.put("name", "Kharkiv National Medical University");
@@ -154,7 +170,7 @@ public class University_Details_JsonObject {
 
 
 ///////////////////////////////////////////////////////////////////////////////////////
-            JSONObject obj_Vinnitsa = new JSONObject();
+
             obj_Vinnitsa.put("country", "Ukraine");
 
             obj_Vinnitsa.put("name", "Vinnitsa National Medical University");
@@ -228,7 +244,7 @@ public class University_Details_JsonObject {
 
 
 //////////////////////////////////////////////////////////////////////////////
-            JSONObject obj_ODESSA = new JSONObject();
+
             obj_ODESSA.put("country", "Ukraine");
 
             obj_ODESSA.put("name", "ODESSA NATIONAL MEDICAL UNIVERSITY UKRAINE (KIEV)");
@@ -302,7 +318,7 @@ public class University_Details_JsonObject {
                     "•\tAccommodations Related complete Assistance.\n");
 
 /////////////////////////////////////////////////
-            JSONObject obj_Kiev = new JSONObject();
+
             obj_Kiev.put("country", "Ukraine");
 
             obj_Kiev.put("name", "Kiev Medical University UAFM");
@@ -376,7 +392,7 @@ public class University_Details_JsonObject {
 
 
 /////////////////////////////////////////////////
-            JSONObject obj_Dnipropetrovsk = new JSONObject();
+
             obj_Dnipropetrovsk.put("country", "Ukraine");
 
             obj_Dnipropetrovsk.put("name", "Dnipropetrovsk State Medical Academy");
@@ -452,7 +468,7 @@ public class University_Details_JsonObject {
 
 
             /////////////////////////////////////////////////
-            JSONObject obj_VN = new JSONObject();
+
             obj_VN.put("country", "Ukraine");
 
             obj_VN.put("name", "V. N. Karazin Kharkiv National Medical University");
@@ -529,7 +545,7 @@ public class University_Details_JsonObject {
                     "•\tAccommodations Related complete Assistance.\n");
 
             /////////////////////////////////////////////////
-            JSONObject obj_ZAPOROZHYE = new JSONObject();
+
             obj_ZAPOROZHYE.put("country", "Ukraine");
 
             obj_ZAPOROZHYE.put("name", "ZAPOROZHYE STATE MEDICAL UNIVERSITY UKRAINE ");
@@ -607,7 +623,7 @@ public class University_Details_JsonObject {
 
 
             /////////////////////////////////////////////////
-            JSONObject obj_Moscow = new JSONObject();
+
 
             obj_Moscow.put("country", "Russia");
 
@@ -688,7 +704,7 @@ public class University_Details_JsonObject {
 
 
             /////////////////////////////////////////////////
-            JSONObject obj_PEOPLES = new JSONObject();
+
 
             obj_PEOPLES.put("country", "Russia");
 
@@ -768,7 +784,7 @@ public class University_Details_JsonObject {
 
 
             /////////////////////////////////////////////////
-            JSONObject obj_STAVROPOL = new JSONObject();
+
 
             obj_STAVROPOL.put("country", "Russia");
 
@@ -850,7 +866,7 @@ public class University_Details_JsonObject {
 
 
             /////////////////////////////////////////////////
-            JSONObject obj_SMOLENSK = new JSONObject();
+
 
             obj_SMOLENSK.put("country", "Russia");
 
@@ -937,7 +953,7 @@ public class University_Details_JsonObject {
 
 
             /////////////////////////////////////////////////
-            JSONObject obj_KURSK = new JSONObject();
+
 
             obj_KURSK.put("country", "Russia");
 
@@ -1009,7 +1025,7 @@ public class University_Details_JsonObject {
                     "                                        Visa process\n");
 
             /////////////////////////////////////////////////
-            JSONObject obj_BASHKIR = new JSONObject();
+
 
             obj_BASHKIR.put("country", "Russia");
 
@@ -1083,7 +1099,7 @@ public class University_Details_JsonObject {
                     "                                        Visa process\n");
 
             /////////////////////////////////////////////////
-            JSONObject obj_KAZAN = new JSONObject();
+
 
             obj_KAZAN.put("country", "Russia");
 
@@ -1162,7 +1178,7 @@ public class University_Details_JsonObject {
 
 
             /////////////////////////////////////////////////
-            JSONObject obj_VOLGOGRAD = new JSONObject();
+
 
             obj_VOLGOGRAD.put("country", "Russia");
 
@@ -1243,7 +1259,7 @@ public class University_Details_JsonObject {
 
 
             /////////////////////////////////////////////////
-            JSONObject obj_KIROV = new JSONObject();
+
 
             obj_KIROV.put("country", "Russia");
 
@@ -1323,57 +1339,59 @@ public class University_Details_JsonObject {
             //return obj;
         switch (varCollegeName){
             case 0:
-
-                break;
+                return obj;
+                //break;
             case 1:
-
-                break;
+                return obj_Kharkiv;
+               //break;
             case 2:
-
-                break;
+                return obj_Vinnitsa;
+                //break;
             case 3:
-
-                break;
+                return obj_ODESSA;
+                //break;
             case 4:
-
-                break;
+                return obj_Kiev;
+                //break;
             case 5:
-
-                break;
+                return obj_Dnipropetrovsk ;
+                //break;
             case 6:
-
-                break;
+                return obj_VN;
+                //break;
             case 7:
-
-                break;
+                return obj_ZAPOROZHYE;
+                //break;
             case 8:
-
-                break;
+                return obj_Moscow;
+                //break;
             case 9:
-
-                break;
+                return obj_PEOPLES;
+                //break;
             case 10:
-
-                break;
+                return obj_STAVROPOL;
+                //break;
             case 11:
-
-                break;
+                return obj_SMOLENSK;
+                //break;
             case 12:
-
-                break;
+                return obj_KURSK;
+                //break;
             case 13:
-
-                break;
+                return obj_BASHKIR;
+                //break;
             case 14:
-
-                break;
+                return obj_KAZAN;
+                //break;
             case 15:
-
-                break;
+                return  obj_VOLGOGRAD ;
+                //break;
 
             case 16:
-
-                break;
+                return obj_KIROV;
+                //break;
+            default:
+                return obj;
         }
         }
 
