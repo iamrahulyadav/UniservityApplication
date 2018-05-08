@@ -17,6 +17,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -24,7 +25,8 @@ public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 //    RecyclerView Popular_Product;
 //    LinearLayoutManager layoutManager;
-LinearLayout UKRAINE_textview,RUSSIA_textview;
+    LinearLayout UKRAINE_textview,RUSSIA_textview;
+    Button submitClientButton;
 //    HomeRecycler_Card adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +48,19 @@ LinearLayout UKRAINE_textview,RUSSIA_textview;
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        setOnclicksubmitClientButton();
+    }
+
+    private void setOnclicksubmitClientButton() {
+        submitClientButton = findViewById(R.id.submitClientButton);
+        submitClientButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(Home.this,Colleges.class);
+                intent.putExtra("menu","Universities");
+                startActivity(intent);
+            }
+        });
     }
 
     private void setUKRAINE_textview()

@@ -10,6 +10,10 @@ import android.widget.ImageView;
 import android.widget.SearchView;
 import android.widget.TextView;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 
 /**
@@ -19,59 +23,14 @@ import java.util.ArrayList;
 public class CollegeRecycler_Card extends RecyclerView.Adapter<CollegeRecycler_Card.ViewHolder> {
 
     private Context context;
+    private JSONArray list;
+    private String fromWhere;
 
-private String fromWhere;
-    private ArrayList<String> names;
-
-    public CollegeRecycler_Card(Context context,String fromWhere) {
+    public CollegeRecycler_Card(Context context,JSONArray list,String fromWhere) {
         this.context = context;
-        this.fromWhere=fromWhere;
+        this.list=list;
+        this.fromWhere = fromWhere;
     }
-    private int[] images_countries = {R.drawable.ukraine_flag,
-            R.drawable.russian_flag
-    };
-    private int[] images_ukrain = {
-            R.drawable.bogomolets_logo,R.drawable.kharkiv_logo,R.drawable.vinnitsa_logo,
-            R.drawable.odessa_logo,R.drawable.kiev_logo,R.drawable.dnipropetrovsk_logo,
-            R.drawable.vnkarazin_logo,R.drawable.zaporizhia_logo};
-
-    private int[] images_russia ={
-            R.drawable.moscow_logo,R.drawable.people_logo,R.drawable.stavropol_logo,
-            R.drawable.smolensk_logo,R.drawable.kursk_logo,R.drawable.bashkir_logo,
-            R.drawable.kazan_logo,R.drawable.volgograd_logo,R.drawable.kirov_logo};
-
-
-    private int[] images_allUniversities = {
-            R.drawable.bogomolets_logo,R.drawable.kharkiv_logo,R.drawable.vinnitsa_logo,
-            R.drawable.odessa_logo,R.drawable.kiev_logo,R.drawable.dnipropetrovsk_logo,
-            R.drawable.vnkarazin_logo,R.drawable.zaporizhia_logo,
-            R.drawable.moscow_logo,R.drawable.people_logo,R.drawable.stavropol_logo,
-            R.drawable.smolensk_logo,R.drawable.kursk_logo,R.drawable.bashkir_logo,
-            R.drawable.kazan_logo,R.drawable.volgograd_logo,R.drawable.kirov_logo
-            };
-
-    private String[] countries ={"Ukrain","Russia"};
-    private String[] college_ukrain = {"BOGOMOLETS NATIONALMEDICAL UNIVERSITY","Kharkiv National Medical University","Vinnitsa National Medical University",
-            "ODESSA NATIONAL MEDICAL UNIVERSITY UKRAINE (KIEV)","Kiev Medical University UAFM","Dnipropetrovsk State Medical Academy",
-            "V. N. Karazin Kharkiv National Medical University","ZAPOROZHYE STATE MEDICAL UNIVERSITY UKRAINE "};
-
-    private String[] college_russia={"Moscow State University","PEOPLES' FRIENDSHIP UNIVERSITY OF RUSSIA",
-            "STAVROPOL STATE MEDICAL UNIVERSITY", "SMOLENSK STATE MEDICAL UNIVERSITY",
-            "KURSK STATE MEDICAL UNIVERSITY","BASHKIR STATE MEDICAL UNIVERSITY","KAZAN STATE MEDICAL UNIVERSITY",
-            "VOLGOGRAD STATE MEDICAL UNIVERSITY","KIROV STATE MEDICAL UNIVERSITY"};
-
-    private String[] allUniversities = {"BOGOMOLETS NATIONALMEDICAL UNIVERSITY","Kharkiv National Medical University","Vinnitsa National Medical University",
-            "ODESSA NATIONAL MEDICAL UNIVERSITY UKRAINE (KIEV)","Kiev Medical University UAFM","Dnipropetrovsk State Medical Academy",
-            "V. N. Karazin Kharkiv National Medical University","ZAPOROZHYE STATE MEDICAL UNIVERSITY UKRAINE ","Moscow State University","PEOPLES' FRIENDSHIP UNIVERSITY OF RUSSIA",
-            "STAVROPOL STATE MEDICAL UNIVERSITY", "SMOLENSK STATE MEDICAL UNIVERSITY",
-            "KURSK STATE MEDICAL UNIVERSITY","BASHKIR STATE MEDICAL UNIVERSITY","KAZAN STATE MEDICAL UNIVERSITY",
-            "VOLGOGRAD STATE MEDICAL UNIVERSITY","KIROV STATE MEDICAL UNIVERSITY"};
-    private String[] course = {"MBBS","MBBS","MBBS",
-            "MBBS","MBBS","MBBS",
-            "MBBS","MBBS","MBBS","MBBS","MBBS",
-            "MBBS","MBBS","MBBS",
-            "MBBS","MBBS","MBBS"};
-
 
 
     @Override
@@ -81,22 +40,20 @@ private String fromWhere;
         ViewHolder holder = new ViewHolder(view);
         return holder;
     }
-    public void filterList(ArrayList<String> filterdNames) {
-        this.names = filterdNames;
-        notifyDataSetChanged();
-    }
     
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
 
-        if(fromWhere.equals("Universities")){
-            viewHolder.card_img.setImageResource(images_allUniversities[i]);
-            viewHolder. card_college.setText(allUniversities[i]);
+        JSONObject obj = new JSONObject();
+        try {
+            obj = list.getJSONObject(i);
+            viewHolder.card_img.setImageResource(obj.getInt("image_logo"));
+            viewHolder. card_college.setText(obj.getString("name"));
             viewHolder. card_course.setText("MBBS");
-
-        }else if(fromWhere.equals("Countries")) {
-            viewHolder.card_img.setImageResource(images_countries[i]);
-            viewHolder.card_college.setText(countries[i]);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        if(fromWhere.equals("Countries")) {
             viewHolder.card_course.setText("");
             viewHolder.card_img.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -106,36 +63,14 @@ private String fromWhere;
                     context.startActivity(intent);
                 }
             });
-        }else if(fromWhere.equals("UKRAINE")){
-
-            viewHolder.card_img.setImageResource(images_ukrain[i]);
-            viewHolder. card_college.setText(college_ukrain[i]);
-            viewHolder. card_course.setText("MBBS");
-
-        }else  if(fromWhere.equals("RUSSIA")){
-
-            viewHolder.card_img.setImageResource(images_russia[i]);
-            viewHolder. card_college.setText(college_russia[i]);
-            viewHolder. card_course.setText("MBBS");
         }
-
 
     }
 
     @Override
     public int getItemCount() {
         //return images.length;
-        if(fromWhere.equals("Universities")){
-            return allUniversities.length;
-        }else if(fromWhere.equals("Countries")) {
-           return countries.length;
-        }else if(fromWhere.equals("UKRAINE")){
-            return college_ukrain.length;
-
-        }else  if(fromWhere.equals("RUSSIA")){
-            return college_russia.length;
-        }
-        return 0;
+        return list.length();
     }
 
 
@@ -144,11 +79,10 @@ private String fromWhere;
 
         ImageView card_img;;
         TextView card_college,card_course;
-        SearchView searchView;
+
 
         public ViewHolder(View itemView) {
             super(itemView);
-            searchView=itemView.findViewById(R.id.searchView);
             card_img=itemView.findViewById(R.id.card_img);
             card_college=itemView.findViewById(R.id.card_college);
             card_course=itemView.findViewById(R.id.card_course);
@@ -160,6 +94,13 @@ private String fromWhere;
 
                         //return allUniversities.length;
                     }else if(fromWhere.equals("Countries")) {
+                        Intent intent = new Intent(context, Colleges.class);
+                        if(i==0) {
+                            intent.putExtra("menu", "UKRAINE");
+                        }else{
+                            intent.putExtra("menu", "RUSSIA");
+                        }
+                        context.startActivity(intent);
                         //return countries.length;
                         return;
 
