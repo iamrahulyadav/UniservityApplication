@@ -40,6 +40,8 @@ ImageView logo,image;
         facilities = findViewById(R.id.facilities);
         feeDetails = findViewById(R.id.feeDetails);
         services = findViewById(R.id.services);
+        logo = findViewById(R.id.logo);
+        image= findViewById(R.id.image);
         try {
             countryName.setText(obj.getString("country"));
             universityName.setText(obj.getString("name"));
@@ -49,7 +51,10 @@ ImageView logo,image;
             facilities.setText(obj.getString("facilities"));
             feeDetails.setText(obj.getString("feedetails"));
             services.setText(obj.getString("services"));
+            logo.setImageResource(obj.getInt("logo"));
+            image.setImageResource(obj.getInt("image"));
             setTableData(obj.getJSONArray("fee"));
+
 
         } catch (JSONException e) {
             e.printStackTrace();
