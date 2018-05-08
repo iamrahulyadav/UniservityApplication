@@ -7,7 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.SearchView;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 /**
  * Created by Admin on 3/28/2018.
@@ -18,6 +21,7 @@ public class CollegeRecycler_Card extends RecyclerView.Adapter<CollegeRecycler_C
     private Context context;
 
 private String fromWhere;
+    private ArrayList<String> names;
 
     public CollegeRecycler_Card(Context context,String fromWhere) {
         this.context = context;
@@ -77,7 +81,11 @@ private String fromWhere;
         ViewHolder holder = new ViewHolder(view);
         return holder;
     }
-
+    public void filterList(ArrayList<String> filterdNames) {
+        this.names = filterdNames;
+        notifyDataSetChanged();
+    }
+    
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
 
@@ -136,10 +144,11 @@ private String fromWhere;
 
         ImageView card_img;;
         TextView card_college,card_course;
-
+        SearchView searchView;
 
         public ViewHolder(View itemView) {
             super(itemView);
+            searchView=itemView.findViewById(R.id.searchView);
             card_img=itemView.findViewById(R.id.card_img);
             card_college=itemView.findViewById(R.id.card_college);
             card_course=itemView.findViewById(R.id.card_course);

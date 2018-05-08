@@ -37,7 +37,13 @@
 
         </RelativeLayout>
 
-
+<SearchView
+    android:id="@+id/searchView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:queryHint="Search"
+    android:background="@drawable/border"></SearchView>
 
     <android.support.v7.widget.RecyclerView
         android:layout_marginTop="10dp"
