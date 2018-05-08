@@ -17,4 +17,8 @@
     <color name="background">#e9efef</color>
     <color name="icon_background">#303856</color>
     <color name="light_blue">#c4cdee</color>
+    <color name="lightre_purple">#DDA0DD</color>
+    <color name="light_purple">#DA70D6</color>
+    <color name="dark_purple">#8B008B</color>
+
 </resources>

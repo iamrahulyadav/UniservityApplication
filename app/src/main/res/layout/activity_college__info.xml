@@ -228,6 +228,7 @@ Congratulations to this year's nominees below and don't forget to check them out
                     android:padding="10dp">
 
                 </TableLayout>
+                <include layout="@layout/fee_table"></include>
 
                 <TextView
                     android:id="@+id/feeDetails"
