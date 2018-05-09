@@ -18,8 +18,8 @@
     <color name="icon_background">#303856</color>
     <color name="light_blue">#c4cdee</color>
     <color name="lightre_purple">#DDA0DD</color>
-    <color name="light_purple">#DA70D6</color>
-    <color name="dark_purple">#8B008B</color>
+    <color name="light_purple">#da70d6</color>
+    <color name="dark_purple">#8b008b</color>
     <color name="bg_purple">#fcdffc</color>
 
 </resources>
