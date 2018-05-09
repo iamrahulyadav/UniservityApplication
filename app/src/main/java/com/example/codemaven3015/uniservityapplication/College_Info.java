@@ -1,5 +1,6 @@
 package com.example.codemaven3015.uniservityapplication;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TableLayout;
 import android.widget.TableRow;
@@ -20,6 +22,7 @@ public class College_Info extends AppCompatActivity {
 TextView countryName,universityName,overview,introduction,eligibility,facilities,feeDetails,
         services,text1,text2,text3,text4,text5,text6,text7,text8;
 ImageView logo,image;
+Button applyNowBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +32,20 @@ ImageView logo,image;
         obj = university_details_jsonObject.returnUniversityData();
         Log.e("Details",obj.toString());
         setCollegeInfoDetails(obj);
+        setapplyNowBtn();
 
+    }
+
+    private void setapplyNowBtn()
+    {
+        applyNowBtn=findViewById(R.id.applyNowBtn);
+        applyNowBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(College_Info.this,Registration.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void setCollegeInfoDetails(JSONObject obj) {
