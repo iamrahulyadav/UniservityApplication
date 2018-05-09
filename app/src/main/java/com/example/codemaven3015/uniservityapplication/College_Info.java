@@ -17,7 +17,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class College_Info extends AppCompatActivity {
-TextView countryName,universityName,overview,introduction,eligibility,facilities,feeDetails,services;
+TextView countryName,universityName,overview,introduction,eligibility,facilities,feeDetails,
+        services,text1,text2,text3,text4,text5,text6,text7,text8;
 ImageView logo,image;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,16 @@ ImageView logo,image;
         feeDetails = findViewById(R.id.feeDetails);
         services = findViewById(R.id.services);
         logo = findViewById(R.id.logo);
+
+        text1=findViewById(R.id.text1);
+        text2=findViewById(R.id.text2);
+        text3=findViewById(R.id.text3);
+        text4=findViewById(R.id.text4);
+        text5=findViewById(R.id.text5);
+        text6=findViewById(R.id.text6);
+        text7=findViewById(R.id.text7);
+        text8=findViewById(R.id.text8);
+
         image= findViewById(R.id.image);
         try {
             countryName.setText(obj.getString("country"));
@@ -53,6 +64,7 @@ ImageView logo,image;
             services.setText(obj.getString("services"));
             logo.setImageResource(obj.getInt("logo"));
             image.setImageResource(obj.getInt("image"));
+            //text1.setText(obj.getJSONArray("fee"));
             setTableData(obj.getJSONArray("fee"));
 
 

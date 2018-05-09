@@ -16,5 +16,20 @@
             android:id="@+id/universities"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Universities" />
+        <item
+            android:title="Contact Us"
+            android:id="@+id/menu_contact_us"
+            >
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/menu_callUs"
+                        android:title="Call Us"/>
+                    <item
+                        android:id="@+id/menu_emailUs"
+                        android:title="E-mail"/>
+                </group>
+            </menu>
+        </item>
     </group>
 </menu>
