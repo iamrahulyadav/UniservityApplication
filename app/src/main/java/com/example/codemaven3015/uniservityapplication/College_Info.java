@@ -10,6 +10,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -90,10 +91,31 @@ Button applyNowBtn;
     }
 
     private void setTableData(JSONArray fee) throws JSONException {
-        if(fee.length()>0) {
+        TableLayout stk = (TableLayout) findViewById(R.id.table);
+        LinearLayout feeTables = findViewById(R.id.feeTables);
+        if(fee.length()==2){
+            feeTables.setVisibility(View.VISIBLE);
+            stk.setVisibility(View.GONE);
             JSONObject feeFirstColumn = new JSONObject();
             feeFirstColumn = fee.getJSONObject(0);
-            TableLayout stk = (TableLayout) findViewById(R.id.table);
+            text1.setText(feeFirstColumn.getString("column2"));
+            text2.setText(feeFirstColumn.getString("column3"));
+            text3.setText(feeFirstColumn.getString("column4"));
+            text4.setText(feeFirstColumn.getString("column5"));
+            feeFirstColumn = new JSONObject();
+            feeFirstColumn = fee.getJSONObject(1);
+            text5.setText(feeFirstColumn.getString("column2"));
+            text6.setText(feeFirstColumn.getString("column3"));
+            text7.setText(feeFirstColumn.getString("column4"));
+            text8.setText(feeFirstColumn.getString("column5"));
+
+
+        }else if(fee.length()>0) {
+            //JSONObject feeFirstColumn = new JSONObject();
+           //feeFirstColumn = fee.getJSONObject(0);
+            feeTables.setVisibility(View.GONE);
+            stk.setVisibility(View.VISIBLE);
+
             TableRow.LayoutParams lp1 = (new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
 
             lp1.weight = 1;
@@ -101,18 +123,18 @@ Button applyNowBtn;
             TableRow tbrow0 = new TableRow(this);
 
             tbrow0.setLayoutParams(lp1);
-            TableRow.LayoutParams lp = (new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
+            TableRow.LayoutParams lp = (new TableRow.LayoutParams(TableRow.LayoutParams.MATCH_PARENT, TableRow.LayoutParams.MATCH_PARENT));
 
             lp.weight = 1;
             TextView tv0 = new TextView(this);
             tv0.setLayoutParams(lp);
             //tv0.setText(feeFirstColumn.getString("column1"));
-            tv0.setText("1st year");
+            tv0.setText("Particulars");
             tv0.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12f);
             tv0.setTextColor(Color.RED);
             tv0.setGravity(Gravity.CENTER);
             tv0.setPadding(0, 30, 0, 30);
-            tv0.setBackground(getResources().getDrawable(R.drawable.border_fill));
+            tv0.setBackground(getResources().getDrawable(R.drawable.table_border));
             tbrow0.addView(tv0);
 
             TextView tv1 = new TextView(this);
@@ -123,7 +145,7 @@ Button applyNowBtn;
             tv1.setGravity(Gravity.CENTER);
             tv1.setTextColor(Color.RED);
             tv1.setPadding(0, 30, 0, 30);
-            tv1.setBackground(getResources().getDrawable(R.drawable.border_fill));
+            tv1.setBackground(getResources().getDrawable(R.drawable.table_border));
             tbrow0.addView(tv1);
 
             TextView tv2 = new TextView(this);
@@ -134,7 +156,7 @@ Button applyNowBtn;
             tv2.setGravity(Gravity.CENTER);
             tv2.setTextColor(Color.RED);
             tv2.setPadding(0, 30, 0, 30);
-            tv2.setBackground(getResources().getDrawable(R.drawable.border_fill));
+            tv2.setBackground(getResources().getDrawable(R.drawable.table_border));
             tbrow0.addView(tv2);
 
             TextView tv3 = new TextView(this);
@@ -145,7 +167,7 @@ Button applyNowBtn;
             tv3.setGravity(Gravity.CENTER);
             tv3.setTextColor(Color.RED);
             tv3.setPadding(0, 30, 0, 30);
-            tv3.setBackground(getResources().getDrawable(R.drawable.border_fill));
+            tv3.setBackground(getResources().getDrawable(R.drawable.table_border));
             tbrow0.addView(tv3);
 
             TextView tv4 = new TextView(this);
@@ -156,7 +178,7 @@ Button applyNowBtn;
             tv4.setGravity(Gravity.CENTER);
             tv4.setTextColor(Color.RED);
             tv4.setPadding(0, 30, 0, 30);
-            tv4.setBackground(getResources().getDrawable(R.drawable.border_fill));
+            tv4.setBackground(getResources().getDrawable(R.drawable.table_border));
             tbrow0.addView(tv4);
             TextView tv5 = new TextView(this);
             tv5.setLayoutParams(lp);
@@ -166,7 +188,7 @@ Button applyNowBtn;
             tv5.setGravity(Gravity.CENTER);
             tv5.setTextColor(Color.RED);
             tv5.setPadding(0, 30, 0, 30);
-            tv5.setBackground(getResources().getDrawable(R.drawable.border_fill));
+            tv5.setBackground(getResources().getDrawable(R.drawable.table_border));
             tbrow0.addView(tv5);
             TextView tv6 = new TextView(this);
             tv6.setLayoutParams(lp);
@@ -186,11 +208,11 @@ Button applyNowBtn;
             tv7.setGravity(Gravity.CENTER);
             tv7.setTextColor(Color.RED);
             tv7.setPadding(0, 30, 0, 30);
-            tv7.setBackground(getResources().getDrawable(R.drawable.border_fill));
+            tv7.setBackground(getResources().getDrawable(R.drawable.table_border));
             tbrow0.addView(tv7);
 
             stk.addView(tbrow0);
-            for (int i = 1; i < fee.length(); i++) {
+            for (int i = 0; i < fee.length(); i++) {
 
                JSONObject obj = new JSONObject();
                obj = fee.getJSONObject(i);
@@ -202,76 +224,84 @@ Button applyNowBtn;
                 t1v.setLayoutParams(lp);
                 //t1v.setText(obj.getString("column1"));
                 t1v.setText("09");
+                t1v.setTextSize(TypedValue.COMPLEX_UNIT_SP, 13f);
                 t1v.setTextColor(Color.BLACK);
                 t1v.setGravity(Gravity.CENTER);
                 t1v.setPadding(0, 30, 0, 30);
-                t1v.setBackground(getResources().getDrawable(R.drawable.border));
+                t1v.setBackground(getResources().getDrawable(R.drawable.table_border));
                 tbrow.addView(t1v);
                 TextView t2v = new TextView(this);
                 t2v.setLayoutParams(lp);
-                t2v.setText("09");
-                //t2v.setText(obj.getString("column2"));
+                //t2v.setText("09");
+                t2v.setTextSize(TypedValue.COMPLEX_UNIT_SP, 13f);
+                t2v.setText(obj.getString("column1"));
                 t2v.setTextColor(Color.BLACK);
                 t2v.setGravity(Gravity.CENTER);
                 t2v.setPadding(0, 30, 0, 30);
-                t2v.setBackground(getResources().getDrawable(R.drawable.border));
+                t2v.setBackground(getResources().getDrawable(R.drawable.table_border));
 
                 tbrow.addView(t2v);
                 TextView t3v = new TextView(this);
                 t3v.setLayoutParams(lp);
-                t3v.setText("09");
-                //t3v.setText(obj.getString("column3"));
+                //t3v.setText("09");
+                t3v.setTextSize(TypedValue.COMPLEX_UNIT_SP, 13f);
+                t3v.setText(obj.getString("column2"));
                 t3v.setTextColor(Color.BLACK);
                 t3v.setGravity(Gravity.CENTER);
                 t3v.setPadding(0, 30, 0, 30);
-                t3v.setBackground(getResources().getDrawable(R.drawable.border));
+                t3v.setBackground(getResources().getDrawable(R.drawable.table_border));
                 tbrow.addView(t3v);
 
                 TextView t4v = new TextView(this);
                 t4v.setLayoutParams(lp);
-                t4v.setText("09");
-                //t4v.setText(obj.getString("column4"));
+                //t4v.setText("09");
+                t4v.setText(obj.getString("column3"));
+                t4v.setTextSize(TypedValue.COMPLEX_UNIT_SP, 13f);
                 t4v.setTextColor(Color.BLACK);
                 t4v.setGravity(Gravity.CENTER);
                 t4v.setPadding(0, 30, 0, 30);
-                t4v.setBackground(getResources().getDrawable(R.drawable.border));
+                t4v.setBackground(getResources().getDrawable(R.drawable.table_border));
                 tbrow.addView(t4v);
 
                 TextView t5v = new TextView(this);
                 t5v.setLayoutParams(lp);
-                //t5v.setText(obj.getString("column5"));
-                t5v.setText("09");
+                t5v.setText(obj.getString("column4"));
+                //t5v.setText("09");
                 t5v.setTextColor(Color.BLACK);
+                t5v.setTextSize(TypedValue.COMPLEX_UNIT_SP, 13f);
                 t5v.setGravity(Gravity.CENTER);
                 t5v.setPadding(0, 30, 0, 30);
-                t5v.setBackground(getResources().getDrawable(R.drawable.border));
+                t5v.setBackground(getResources().getDrawable(R.drawable.table_border));
                 tbrow.addView(t5v);
                 TextView t6v = new TextView(this);
                 t6v.setLayoutParams(lp);
-                //t6v.setText(obj.getString("column5"));
-                t6v.setText("09");
+                t6v.setText(obj.getString("column5"));
+                //t6v.setText("09");
+                t6v.setTextSize(TypedValue.COMPLEX_UNIT_SP, 13f);
                 t6v.setTextColor(Color.BLACK);
                 t6v.setGravity(Gravity.CENTER);
                 t6v.setPadding(0, 30, 0, 30);
-                t6v.setBackground(getResources().getDrawable(R.drawable.border));
+                t6v.setBackground(getResources().getDrawable(R.drawable.table_border));
                 tbrow.addView(t6v);
                 TextView t7v = new TextView(this);
                 t7v.setLayoutParams(lp);
-                //t7v.setText(obj.getString("column5"));
-                t7v.setText("09");
+                t7v.setTextSize(TypedValue.COMPLEX_UNIT_SP, 13f);
+                t7v.setText(obj.getString("column6"));
+                //t7v.setText("09");
                 t7v.setTextColor(Color.BLACK);
                 t7v.setGravity(Gravity.CENTER);
                 t7v.setPadding(0, 30, 0, 30);
-                t7v.setBackground(getResources().getDrawable(R.drawable.border));
+                t7v.setBackground(getResources().getDrawable(R.drawable.table_border));
                 tbrow.addView(t7v);
                 TextView t8v = new TextView(this);
                 t8v.setLayoutParams(lp);
-                //t8v.setText(obj.getString("column5"));
-                t8v.setText("09");
+                t8v.setTextSize(TypedValue.COMPLEX_UNIT_SP, 13f);
+                t8v.setText(obj.getString("column7"));
+                //t8v.setText("09");
                 t8v.setTextColor(Color.BLACK);
                 t8v.setGravity(Gravity.CENTER);
                 t8v.setPadding(0, 30, 0, 30);
-                t8v.setBackground(getResources().getDrawable(R.drawable.border));
+                t8v.setBackground(getResources().getDrawable(R.drawable.table_border));
                 tbrow.addView(t8v);
                 stk.addView(tbrow);
             }

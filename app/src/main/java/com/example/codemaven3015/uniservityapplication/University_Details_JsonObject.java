@@ -77,7 +77,7 @@ public class University_Details_JsonObject {
             temp_obj3.put("column3", "$1800");
             temp_obj3.put("column4", "$6300");
             temp_obj3.put("column5", "₹3,78,000");
-            feeArray.put(temp_obj1);
+            //feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
             obj.put("fee", feeArray);
@@ -140,7 +140,7 @@ public class University_Details_JsonObject {
                 temp_obj3.put("column3", "$1200");
                 temp_obj3.put("column4", "$5500");
                 temp_obj3.put("column5", "₹3,30,000");
-                feeArray.put(temp_obj1);
+                //feeArray.put(temp_obj1);
                 feeArray.put(temp_obj2);
                 feeArray.put(temp_obj3);
                 obj_Kharkiv.put("fee", feeArray);
@@ -207,7 +207,7 @@ public class University_Details_JsonObject {
             temp_obj3.put("column3", "$1000");
             temp_obj3.put("column4", "$5400");
             temp_obj3.put("column5", "₹3,24,000");
-            feeArray.put(temp_obj1);
+            //feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
             obj_Vinnitsa.put("fee", feeArray);
@@ -275,7 +275,7 @@ public class University_Details_JsonObject {
             temp_obj3.put("column3", "$1500");
             temp_obj3.put("column4", "$5500");
             temp_obj3.put("column5", "₹3,30,000");
-            feeArray.put(temp_obj1);
+            //feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
             obj_ODESSA.put("fee", feeArray);
@@ -338,7 +338,7 @@ public class University_Details_JsonObject {
             temp_obj3.put("column3", "$500 ");
             temp_obj3.put("column4", "$4000 ");
             temp_obj3.put("column5", "₹2,40,000");
-            feeArray.put(temp_obj1);
+            //feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
             obj_Kiev.put("fee", feeArray);
@@ -406,7 +406,7 @@ public class University_Details_JsonObject {
             temp_obj3.put("column3", "$1200");
             temp_obj3.put("column4", "$4700");
             temp_obj3.put("column5", "₹2,82,000");
-            feeArray.put(temp_obj1);
+            //feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
             obj_Dnipropetrovsk.put("fee", feeArray);
@@ -475,7 +475,7 @@ public class University_Details_JsonObject {
             temp_obj3.put("column3", "$1200 ");
             temp_obj3.put("column4", "$5400 ");
             temp_obj3.put("column5", "₹3,34,000");
-            feeArray.put(temp_obj1);
+            //feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
             obj_VN.put("fee", feeArray);
@@ -542,7 +542,7 @@ public class University_Details_JsonObject {
             temp_obj3.put("column3", "$1200 ");
             temp_obj3.put("column4", "$5200 ");
             temp_obj3.put("column5", "₹3,12,000");
-            feeArray.put(temp_obj1);
+            //feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
 
@@ -655,9 +655,11 @@ public class University_Details_JsonObject {
             temp_obj6.put("column7", "40,56,000");
 
 
-            feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
+            feeArray.put(temp_obj4);
+            feeArray.put(temp_obj5);
+            feeArray.put(temp_obj6);
 
             obj_Moscow.put("fee", feeArray);
 
@@ -759,9 +761,11 @@ public class University_Details_JsonObject {
             temp_obj6.put("column5", "5,72,000");
             temp_obj6.put("column6", "5,72,000");
             temp_obj6.put("column7", "34,32,000");
-            feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
+            feeArray.put(temp_obj4);
+            feeArray.put(temp_obj5);
+            feeArray.put(temp_obj6);
 
             obj_PEOPLES.put("fee", feeArray);
 
@@ -866,9 +870,11 @@ public class University_Details_JsonObject {
             temp_obj6.put("column5", "3,31,500");
             temp_obj6.put("column6", "3,31,500");
             temp_obj6.put("column7", "19,89,000");
-            feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
+            feeArray.put(temp_obj4);
+            feeArray.put(temp_obj5);
+            feeArray.put(temp_obj6);
 
             obj_STAVROPOL.put("fee", feeArray);
 
@@ -978,9 +984,11 @@ public class University_Details_JsonObject {
             temp_obj6.put("column5", "370500");
             temp_obj6.put("column6", "370500");
             temp_obj6.put("column7", "22,23,000");
-            feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
+            feeArray.put(temp_obj4);
+            feeArray.put(temp_obj5);
+            feeArray.put(temp_obj6);
 
             obj_SMOLENSK.put("fee", feeArray);
 
@@ -1076,9 +1084,11 @@ public class University_Details_JsonObject {
             temp_obj6.put("column5", "4,03,000");
             temp_obj6.put("column6", "4,03,000");
             temp_obj6.put("column7", "24,18,000");
-            feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
+            feeArray.put(temp_obj4);
+            feeArray.put(temp_obj5);
+            feeArray.put(temp_obj6);
 
             obj_KURSK.put("fee", feeArray);
 
@@ -1174,9 +1184,11 @@ public class University_Details_JsonObject {
             temp_obj6.put("column5", "3,75,750");
             temp_obj6.put("column6", "3,75,750");
             temp_obj6.put("column7", "13,32,500");
-            feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
+            feeArray.put(temp_obj4);
+            feeArray.put(temp_obj5);
+            feeArray.put(temp_obj6);
 
             obj_BASHKIR.put("fee", feeArray);
 
@@ -1276,9 +1288,11 @@ public class University_Details_JsonObject {
             temp_obj6.put("column5", "2,88,000");
             temp_obj6.put("column6", "2,88,000");
             temp_obj6.put("column7", "17,28,000");
-            feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
+            feeArray.put(temp_obj4);
+            feeArray.put(temp_obj5);
+            feeArray.put(temp_obj6);
 
             obj_KAZAN.put("fee", feeArray);
 
@@ -1380,9 +1394,11 @@ public class University_Details_JsonObject {
             temp_obj6.put("column5", "401700");
             temp_obj6.put("column6", "401700");
             temp_obj6.put("column7", "24,102,00");
-            feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
+            feeArray.put(temp_obj4);
+            feeArray.put(temp_obj5);
+            feeArray.put(temp_obj6);
 
             obj_VOLGOGRAD.put("fee", feeArray);
 
@@ -1480,9 +1496,11 @@ public class University_Details_JsonObject {
             temp_obj6.put("column5", "2,99,000");
             temp_obj6.put("column6", "2,99,000");
             temp_obj6.put("column7", "17,94,000");
-            feeArray.put(temp_obj1);
             feeArray.put(temp_obj2);
             feeArray.put(temp_obj3);
+            feeArray.put(temp_obj4);
+            feeArray.put(temp_obj5);
+            feeArray.put(temp_obj6);
 
             obj_KIROV.put("fee", feeArray);
 

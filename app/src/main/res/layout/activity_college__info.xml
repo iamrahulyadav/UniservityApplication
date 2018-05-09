@@ -233,10 +233,8 @@ Congratulations to this year's nominees below and don't forget to check them out
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-
                     android:background="@drawable/border"
-                    android:orientation="vertical"
-                    android:padding="10dp">
+                    android:orientation="vertical">
 
                 </TableLayout>
                 <include layout="@layout/fee_table"></include>
