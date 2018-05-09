@@ -53,7 +53,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/border"
                     android:padding="5dp"
                     android:text="OVERVIEW"
@@ -86,15 +89,6 @@
                         android:orientation="vertical">
 
                         <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="Delhi University"
-                            android:textColor="@color/blue"
-                            android:textSize="20sp"
-                            android:textStyle="bold" />
-
-                        <TextView
                             android:id="@+id/overview"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -110,13 +104,15 @@
                     android:id="@+id/image"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/image" />
+                    android:layout_margin="10dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/border"
                     android:padding="5dp"
                     android:text="INTRODUCTION"
@@ -145,10 +141,14 @@ Each year, the Google Play Awards recognize top apps and games on Google Play. T
 Congratulations to this year's nominees below and don't forget to check them out on the Google Play store at g.co/play/gpa2018.INTRODUCTION  jhsfbj geaiubfmbKJGHK ZFJKSHGHLSNDHGUEIGFUQEN KJHDFLIHQEFJ FBEKLDJFGHILH DDFL IEHIUFOIQE JHAFKJHO IEAF EHFKJDFIL enafjkdhfioe "
                         android:textColor="@color/black" />
                 </LinearLayout>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/border"
                     android:padding="5dp"
                     android:text="ELIGIBILITY"
@@ -178,16 +178,19 @@ Congratulations to this year's nominees below and don't forget to check them out
                         android:textColor="@color/black" />
                 </LinearLayout>
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:background="@drawable/border"
-                        android:padding="5dp"
-                        android:text="FACILITIES FOR STUDENT"
-                        android:textColor="@color/dark_purple"
-                        android:textSize="@dimen/largeFont"
-                        android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:text="FACILITIES FOR STUDENT"
+                    android:textColor="@color/dark_purple"
+                    android:textSize="@dimen/largeFont"
+                    android:textStyle="bold" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -210,10 +213,14 @@ Each year, the Google Play Awards recognize top apps and games on Google Play. T
 Congratulations to this year's nominees below and don't forget to check them out on the Google Play store at g.co/play/gpa2018.INTRODUCTION  jhsfbj geaiubfmbKJGHK ZFJKSHGHLSNDHGUEIGFUQEN KJHDFLIHQEFJ FBEKLDJFGHILH DDFL IEHIUFOIQE JHAFKJHO IEAF EHFKJDFIL enafjkdhfioe "
                             android:textColor="@color/black" />
                     </LinearLayout>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/border"
                     android:padding="5dp"
                     android:text="FEE STRUCTURE"
@@ -246,7 +253,10 @@ Congratulations to this year's nominees below and don't forget to check them out
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/border"
                     android:padding="5dp"
                     android:text="OUR SERVICES"
