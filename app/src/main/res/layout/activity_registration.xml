@@ -35,165 +35,165 @@
             android:textSize="@dimen/largeFont"
             android:textStyle="bold"
             android:textColor="@color/black" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:orientation="horizontal">
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:hint="Client Id"
-            android:textAlignment="center"
-            android:background="@drawable/border"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            />
-    </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:hint="Client Id"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/border"
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="GENDER"
-                android:textAlignment="center"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:textColor="@color/black"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                />
+                android:text="GENDER"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
             <RadioGroup
                 android:layout_width="wrap_content"
-               android:layout_height="match_parent"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_marginLeft="40dp"
                 android:orientation="horizontal">
+
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
                     android:text="Male"
-                    android:textColor="@color/black"
-                    android:paddingLeft="8dp"
-                    android:paddingRight="8dp"
-                    />
+                    android:textColor="@color/black" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Female"
-                    android:textColor="@color/black"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    />
-        </RadioGroup>
-    </LinearLayout>
+                    android:text="Female"
+                    android:textColor="@color/black" />
+            </RadioGroup>
+        </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/border"
                 android:hint="Phone"
-                android:textAlignment="center"
-                android:background="@drawable/border"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                />
+                android:textAlignment="center" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/border"
                 android:hint="Email"
-                android:textAlignment="center"
-                android:background="@drawable/border"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                />
+                android:textAlignment="center" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/border"
                 android:hint="DOB"
-                android:textAlignment="center"
-                android:background="@drawable/border"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                />
+                android:textAlignment="center" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@drawable/border"
                 android:hint="Nationality"
-                android:textAlignment="center"
-                android:background="@drawable/border"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                />
+                android:textAlignment="center" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="12th Class Percentage"
-                android:textAlignment="center"
                 android:background="@drawable/border"
+                android:hint="12th Class Percentage"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                />
+                android:textAlignment="center" />
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
@@ -240,16 +240,17 @@
                 />
         </RadioGroup>
     </LinearLayout>
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/red"
+                android:gravity="center"
                 android:text="Update"
                 android:textColor="@color/white"
-                android:background="@color/green"
-                android:gravity="center"
                 android:textSize="@dimen/largeFont"
-                android:textStyle="bold"
-               android:layout_alignParentBottom="true" />
+                android:textStyle="bold" />
         </RelativeLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
