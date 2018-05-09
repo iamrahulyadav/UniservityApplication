@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/border"
+    android:id="@+id/feeTables"
     android:layout_margin="10dp"
     android:orientation="vertical">
     <LinearLayout
@@ -23,50 +24,58 @@
             android:layout_marginRight="3dp"
             android:layout_marginLeft="3dp"
             android:background="@color/light_purple"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="TUITION FEE / YEAR"/>
+            android:text="TUITION FEE / YEAR"
+            android:textAlignment="center" />
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_marginRight="3dp"
             android:layout_marginLeft="3dp"
             android:background="@color/light_purple"/>
+
         <TextView
-            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
             android:layout_marginBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:text="HOSTEL FEE + HEALTH INSURANCE / YEAR"/>
+            android:text="HOSTEL FEE + HEALTH INSURANCE / YEAR"
+            android:textAlignment="center" />
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_marginRight="3dp"
             android:layout_marginLeft="3dp"
             android:background="@color/light_purple"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="TOTAL FEES IN USD"/>
+            android:text="TOTAL FEES IN USD"
+            android:textAlignment="center" />
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
             android:layout_marginRight="3dp"
             android:layout_marginLeft="3dp"
             android:background="@color/light_purple"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
-            android:text="TOTAL FEE IN RUPEES"/>
+            android:text="TOTAL FEE IN RUPEES"
+            android:textAlignment="center" />
     </LinearLayout>
 
     <View
@@ -79,16 +88,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
+
             <TextView
-                android:textColor="@color/dark_purple"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_gravity="center_vertical"
-                android:text="1st Year"/>
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="1st Year"
+                android:textAlignment="center"
+                android:textColor="@color/dark_purple"
+                android:textStyle="bold" />
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
@@ -152,16 +163,18 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             >
+
             <TextView
-                android:textColor="@color/dark_purple"
-                android:textStyle="bold"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_gravity="center_vertical"
-                android:text="2nd to 6th year"/>
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="2nd to 6th year"
+                android:textAlignment="center"
+                android:textColor="@color/dark_purple"
+                android:textStyle="bold" />
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"

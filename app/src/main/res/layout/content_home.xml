@@ -7,5 +7,150 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.codemaven3015.uniservityapplication.Home"
     tools:showIn="@layout/app_bar_home">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_purple">
+
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_centerHorizontal="true"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="80dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:id="@+id/searchText"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_below="@+id/logo"
+                android:textColor="@color/dark_purple"
+                android:textSize="@dimen/smallFontL"
+                android:text="FIND THE COLLEGE/UNIVERSITY FOR YOU"/>
+
+
+            <Button
+                android:layout_below="@+id/searchText"
+                android:id="@+id/submitClientButton"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:text="Search Colleges  ➝"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/dark_purple"
+                android:textSize="@dimen/mediumFont" />
+
+            <TextView
+                android:layout_above="@+id/countriesList"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="@dimen/smallFontL"
+                android:text="POPULAR COUNTRY TO STUDY ABROAD"/>
+
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:id="@+id/Popular_Product"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:scrollbars="horizontal"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+
+
+        <LinearLayout
+            android:id="@+id/countriesList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/UKRAINE_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/border">
+
+                <ImageView
+                    android:id="@+id/card_img"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ukraine_flag"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="UKRAINE"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/dark_purple"
+                    android:textSize="@dimen/smallFontL" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/RUSSIA_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                >
+
+                <ImageView
+                    android:id="@+id/card_img2"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/russian_flag"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="RUSSIA"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/dark_purple"
+                    android:textSize="@dimen/smallFontL" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

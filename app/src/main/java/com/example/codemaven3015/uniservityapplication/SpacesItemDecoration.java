@@ -26,7 +26,7 @@ public class SpacesItemDecoration extends RecyclerView.ItemDecoration {
         if(fromWhere.equals("")) {
             outRect.left = space;
             outRect.right = space;
-            outRect.bottom = space;
+            outRect.bottom = 0;
             outRect.top = space;
         }else {
             outRect.left = 0;
