@@ -36,7 +36,7 @@ public class CollegeRecycler_Card extends RecyclerView.Adapter<CollegeRecycler_C
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(context);
-        View view = inflater.inflate(R.layout.college_card, null,false);
+        View view = inflater.inflate(R.layout.college_card, parent,false);
         ViewHolder holder = new ViewHolder(view);
         return holder;
     }
@@ -119,9 +119,5 @@ public class CollegeRecycler_Card extends RecyclerView.Adapter<CollegeRecycler_C
     }
 
 
-
-    public void startDetailsActivity(){
-
-    }
 
 }}
