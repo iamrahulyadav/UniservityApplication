@@ -27,9 +27,9 @@ public class University_Details_Belarus {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/GdEp8VrTQtP2\n");
 
-        GRODON.put("logo", R.drawable.kirov_logo);
+        GRODON.put("logo", R.drawable.grodon_logo);
 
-        GRODON.put("image", R.drawable.kirov);
+        GRODON.put("image", R.drawable.grodon_img);
 
         GRODON.put("intoduction", "In the postwar period the social sphere of the Republic of Belarus began to develop actively. In order to improve the health service and to provide medical training and research in western region of Belarus, State Medical Institute in Grodno was established, 250 students were admitted for the academic year 1958/59. This was in accordance with the Decree of the BSSR Council of Ministers №541 from August 9, 1958, by the order of Ministry of Health of the Belorussian SSR №75 from August 14, 1958.\n" +
                 "\n" +
@@ -125,9 +125,9 @@ public class University_Details_Belarus {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/uWGqjsUPKzE2\n");
 
-        BELARUSSIAN.put("logo", R.drawable.kirov_logo);
+        BELARUSSIAN.put("logo", R.drawable.belarussian_logo);
 
-        BELARUSSIAN.put("image", R.drawable.kirov);
+        BELARUSSIAN.put("image", R.drawable.belarussian_img);
 
         BELARUSSIAN.put("intoduction", "In 1960 the Dental Faculty was opened. The Pediatric Faculty and the Faculty of Preventive Medicine were set up in 1964. The Medical Faculty for International Students started its activity in 1967. The Faculty of Military Medicine was organized in 1995. In 2010 the Pharmaceutical Faculty welcomed its first students. The Faculty of Career Guidance and Prevocational Training was founded in 2012.\n" +
                 "In 1971 for the achievements in training highly qualified medical specialists and for its contribution to the development of health care and medical science Minsk State Medical Institute received one of the highest national awards - the Order of Red Banner of Labor.\n" +
@@ -226,9 +226,9 @@ public class University_Details_Belarus {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/JVqFAcJEKiz\n");
 
-        VITEBSK.put("logo", R.drawable.kirov_logo);
+        VITEBSK.put("logo", R.drawable.vitebsk_logo);
 
-        VITEBSK.put("image", R.drawable.kirov);
+        VITEBSK.put("image", R.drawable.vitebsk_img);
 
         VITEBSK.put("intoduction", "Vitebsk State Medical Institute was established as a hospital-medical institute in November 1, 1934 by Resolution of the Council of People's Commissars of the BSSR. The total number of students on all courses was 250.\n" +
                 "MD, Professor MoiseiAnisimovich Khazanov, a graduate of the Medical Faculty of the University of Bern (Switzerland) was appointed as the first Rector of the Institute. 12 Professors, well-known in the USSR and abroad medical scientists, started to work with him: Professor Pavel MarkovichGurevich, a graduate of the University of Strasbourg (Alsace - France), became the first dean. In 1938 a hospital-medical institute was renamed into Vitebsk Medical Institute.\n" +
@@ -325,9 +325,9 @@ public class University_Details_Belarus {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/gXbnSTYxyvz\n");
 
-        GOMEL.put("logo", R.drawable.kirov_logo);
+        GOMEL.put("logo", R.drawable.gomel_logo);
 
-        GOMEL.put("image", R.drawable.kirov);
+        GOMEL.put("image", R.drawable.gomel_img);
 
         GOMEL.put("intoduction", "n 1990 Gomel State Medical University was founded as per resolution of the Council of Ministers and Order of the Minister of Health of the Byelorussian Soviet Socialist Republic. It is the youngest of four medical universities in Belarus. Gomel State Medical University has attained the status of a modern university and is recognized by the World Health Organization (WHO) and many other international professional groups. Graduates of the University work in clinics throughout the Republic of Belarus, Western Europe, Africa, the Middle East and Asia. Today, Gomel State Medical University employs 600 highly qualified professors and assistant professors within 34 departments, 5 profile research laboratories and a central research laboratory and 18 large wellequipped clinics. The clinical base of the University is the best in Belarus, using advanced medical technologies for the diagnosis and treatment in the fields of endocrinology, cardiology, immunology, haematology, ophthalmology and oncology as well as other medical specialties. The University library, with its rich source of written and other material, Internet access and three reading halls, provides students with the means to excel during the educational process. Modern hostels offer comfortable flats, lounges and physical training rooms, as well as Internet access. Since its inception, the University has prepared more than 2000 doctors, training foreign students from Africa, Poland, Turkey, Russia, China, Vietnam, Lebanon, Iran, South America, India, Sri Lanka, Nepal and the Newly Independent States and Western Europe.\n" +
                 "Education is one of the main priorities of the national policy of the Republic of Belarus.\n" +
@@ -412,6 +412,12 @@ public class University_Details_Belarus {
 
 
 
-        return null;
+        JSONArray allColleges = new JSONArray();
+        allColleges.put(GRODON);
+        allColleges.put(BELARUSSIAN);
+        allColleges.put(VITEBSK);
+        allColleges.put(GOMEL);
+
+        return allColleges.getJSONObject(varCollegeName);
     }
 }

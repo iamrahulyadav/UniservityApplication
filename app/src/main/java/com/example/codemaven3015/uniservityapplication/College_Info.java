@@ -28,15 +28,69 @@ Button applyNowBtn;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_college__info);
-        JSONObject obj = new JSONObject();
-        University_Details_JsonObject university_details_jsonObject= new University_Details_JsonObject(getIntent().getIntExtra("location",0));
-        obj = university_details_jsonObject.returnUniversityData();
-        Log.e("Details",obj.toString());
-        setCollegeInfoDetails(obj);
+        try {
+            getInfoData();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
         setapplyNowBtn();
 
     }
+    public void getInfoData() throws JSONException {
+        JSONObject obj = new JSONObject();
+        String countryId = getIntent().getStringExtra("menu");
+        int collegeId = getIntent().getIntExtra("location",0);
+        if(countryId.equals("0")){
+            University_Details_Bangladesh bangladesh = new University_Details_Bangladesh(collegeId);
+            obj= bangladesh.returnUniversityData();
 
+        }else if(countryId.equals("1")){
+            University_Details_Belarus belarus = new University_Details_Belarus(collegeId);
+            obj= belarus.returnUniversityData();
+
+        }else if(countryId.equals("2")){
+            University_Details_China china = new University_Details_China(collegeId);
+            obj= china.returnUniversityData();
+
+        }else if(countryId.equals("3")){
+            University_Details_Georgia georgia = new University_Details_Georgia(collegeId);
+            obj= georgia.returnUniversityData();
+
+        }else if(countryId.equals("4")){
+            University_Details_KAZAKHSTAN kazakhstan = new University_Details_KAZAKHSTAN(collegeId);
+            obj= kazakhstan.returnUniversityData();
+
+        }else if(countryId.equals("5")){
+            University_Details_KYRGYZSTAN kyrgyzstan = new University_Details_KYRGYZSTAN(collegeId);
+            obj= kyrgyzstan.returnUniversityData();
+
+        }else if(countryId.equals("6")){
+            University_Details_Nepal nepal = new University_Details_Nepal(collegeId);
+            obj= nepal.returnUniversityData();
+
+        }else if(countryId.equals("7")){
+            University_Details_PHILIPPINES philippines = new University_Details_PHILIPPINES(collegeId);
+            obj= philippines.returnUniversityData();
+
+        }else if(countryId.equals("8")){
+            University_Details_POLAND poland= new University_Details_POLAND(collegeId);
+            obj= poland.returnUniversityData();
+
+        }else if(countryId.equals("9")){
+            University_Details_Russia russia = new University_Details_Russia(collegeId);
+            obj= russia.returnUniversityData();
+
+        }else if(countryId.equals("10")){
+            University_Details_Ukraine ukraine= new University_Details_Ukraine(collegeId);
+            obj= ukraine.returnUniversityData();
+
+        }
+
+
+        Log.e("Details",obj.toString());
+        setCollegeInfoDetails(obj);
+    }
     private void setapplyNowBtn()
     {
         applyNowBtn=findViewById(R.id.applyNowBtn);
@@ -212,6 +266,7 @@ Button applyNowBtn;
             tbrow0.addView(tv7);
 
             stk.addView(tbrow0);
+            String tableRowList[] = {"Fee ($)", "Fee (₹)", "One Time" ,"Hostel & Food(₹)" ,"Total (₹)"};
             for (int i = 0; i < fee.length(); i++) {
 
                JSONObject obj = new JSONObject();
@@ -223,9 +278,9 @@ Button applyNowBtn;
                 TextView t1v = new TextView(this);
                 t1v.setLayoutParams(lp);
                 //t1v.setText(obj.getString("column1"));
-                t1v.setText("09");
+                t1v.setText(tableRowList[i]);
                 t1v.setTextSize(TypedValue.COMPLEX_UNIT_SP, 13f);
-                t1v.setTextColor(Color.BLACK);
+                t1v.setTextColor(getResources().getColor(R.color.dark_purple));
                 t1v.setGravity(Gravity.CENTER);
                 t1v.setPadding(0, 30, 0, 30);
                 t1v.setBackground(getResources().getDrawable(R.drawable.table_border));

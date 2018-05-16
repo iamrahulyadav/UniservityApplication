@@ -27,21 +27,21 @@ import android.widget.TextView;
 
 public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-//    RecyclerView Popular_Product;
-//    LinearLayoutManager layoutManager;
+    RecyclerView Popular_Product;
+    LinearLayoutManager layoutManager;
     LinearLayout UKRAINE_textview,RUSSIA_textview;
     Button submitClientButton;
-//    HomeRecycler_Card adapter;
+    HomeRecycler_Card adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        setUKRAINE_textview();
+        //setUKRAINE_textview();
 
-        //Popular_Product =findViewById(R.id.Popular_Product);
-        //setPopularProduct();
+        Popular_Product =findViewById(R.id.Popular_Product);
+        setPopularProduct();
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -63,48 +63,49 @@ public class Home extends AppCompatActivity
                 Intent intent= new Intent(Home.this,Colleges.class);
                 intent.putExtra("menu","Universities");
                 startActivity(intent);
+
             }
         });
     }
 
-    private void setUKRAINE_textview()
-    {
-        UKRAINE_textview=findViewById(R.id.UKRAINE_textview);
-        RUSSIA_textview=findViewById(R.id.RUSSIA_textview);
-        UKRAINE_textview.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v)
-        {
-            Intent intent= new Intent(Home.this,Colleges.class);
-            intent.putExtra("menu","UKRAINE");
-            startActivity(intent);
-        }
-    });
-
-        RUSSIA_textview.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v)
-            {
-                Intent intent= new Intent(Home.this,Colleges.class);
-                intent.putExtra("menu","RUSSIA");
-                startActivity(intent);
-            }
-        });
-    }
-
-//    private void setPopularProduct()
+//    private void setUKRAINE_textview()
 //    {
+//        UKRAINE_textview=findViewById(R.id.UKRAINE_textview);
+//        RUSSIA_textview=findViewById(R.id.RUSSIA_textview);
+//        UKRAINE_textview.setOnClickListener(new View.OnClickListener() {
+//        @Override
+//        public void onClick(View v)
+//        {
+//            Intent intent= new Intent(Home.this,Colleges.class);
+//            intent.putExtra("menu","UKRAINE");
+//            startActivity(intent);
+//        }
+//    });
 //
-//        Popular_Product.setHasFixedSize(true);
-//        layoutManager=new LinearLayoutManager(this);
-//        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
-//        Popular_Product.setLayoutManager(layoutManager);
-//        adapter=new HomeRecycler_Card(this);
-//        int spacingInPixels = getResources().getDimensionPixelSize(R.dimen.spacing);
-//        Popular_Product.addItemDecoration(new SpacesItemDecoration(spacingInPixels));
-//        Popular_Product.setItemAnimator(new DefaultItemAnimator());
-//        Popular_Product.setAdapter(adapter);
+//        RUSSIA_textview.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v)
+//            {
+//                Intent intent= new Intent(Home.this,Colleges.class);
+//                intent.putExtra("menu","RUSSIA");
+//                startActivity(intent);
+//            }
+//        });
 //    }
+
+    private void setPopularProduct()
+    {
+
+        Popular_Product.setHasFixedSize(true);
+        layoutManager=new LinearLayoutManager(this);
+        layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        Popular_Product.setLayoutManager(layoutManager);
+        adapter=new HomeRecycler_Card(this);
+        int spacingInPixels = getResources().getDimensionPixelSize(R.dimen.spacing);
+        Popular_Product.addItemDecoration(new SpacesItemDecoration(spacingInPixels));
+        Popular_Product.setItemAnimator(new DefaultItemAnimator());
+        Popular_Product.setAdapter(adapter);
+    }
 
     @Override
     public void onBackPressed() {

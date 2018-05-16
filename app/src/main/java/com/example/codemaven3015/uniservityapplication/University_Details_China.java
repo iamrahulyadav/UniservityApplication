@@ -28,9 +28,9 @@ public class University_Details_China
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/ad7qpXFi7Wv\n");
 
-        HUBEI.put("logo", R.drawable.kirov_logo);
+        HUBEI.put("logo", R.drawable.hubei_logo);
 
-        HUBEI.put("image", R.drawable.kirov);
+        HUBEI.put("image", R.drawable.hubei_img);
 
         HUBEI.put("intoduction", "Introduction- Hubei University of Medicine (HUM) was founded as Wuhan Medical College, Yunyang School in November 1965 and renamed Tongji Medical University, Yunyang Medical College in 1986. In 1994, HUM was independently instituted as Yunyang Medical College under the Approval of the State Education Commission. In 1996, Yunyang Medical College passed the National Undergraduate Teaching Quality Assessment (TQA) an accreditation organized by the State Education Commission. In 2006 Yunyang Medical College was evaluated as “Excellent” in the TQA conducted by the Ministry of Education. In 2010, Yunyang Medical College was renamed Hubei University of Medicine under the approval of Hubei Provincial Government and the Ministry of Education. In 2012, HUM was authorized by the State Council to be qualified of granting Master’s Degrees as well as to enroll international students. After 50 years development, HUM is becoming the premier medical university located in the joint area of central China and west China, the adjacent area of Hubei, Chongqing, Shanxi and Henan province, where the population is around 26,000,000.\n" +
                 "HUM’s campus covers 1,175,400 square meters, of which 390,000 square meters are for teaching and administration. The fixed assets amount to 2.683 billion RMB, with the teaching and research facilities making up 455 million RMB in assets. The HUM library has a collection of 840,000 volumes. The campus network is the only node for the China Education and Research network (CERNET) in the northwest of Hubei Province.\n" +
@@ -124,9 +124,9 @@ public class University_Details_China
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/9NoUWAvEo8p\n");
 
-        JILIN.put("logo", R.drawable.kirov_logo);
+        JILIN.put("logo", R.drawable.jilin_logo);
 
-        JILIN.put("image", R.drawable.kirov);
+        JILIN.put("image", R.drawable.jilin_img);
 
         JILIN.put("intoduction", "JILIN MEDICAL UNIVERSITYwas established in 1946\n" +
                 "Google Rating -4 star\n" +
@@ -222,9 +222,9 @@ public class University_Details_China
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/ieABnxqkExp \n");
 
-        KUNMING.put("logo", R.drawable.kirov_logo);
+        KUNMING.put("logo", R.drawable.kunming_logo);
 
-        KUNMING.put("image", R.drawable.kirov);
+        KUNMING.put("image", R.drawable.kunming_img);
 
         KUNMING.put("intoduction", "In 1933, Donglu University initiated a specialized associate program in medicine and this has ever since evolved and grown into Kunming Medical University (KMU) of today. \n" +
                 "\n" +
@@ -326,9 +326,9 @@ public class University_Details_China
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/LtghNcZCmHA2\n");
 
-        JIUJIANG.put("logo", R.drawable.kirov_logo);
+        JIUJIANG.put("logo", R.drawable.jiujiang_logo);
 
-        JIUJIANG.put("image", R.drawable.kirov);
+        JIUJIANG.put("image", R.drawable.jiujiang_img);
 
         JIUJIANG.put("intoduction", "Jiujiang University is a comprehensive public university authorized by the Chinese Ministry of Education, enrolling students from 30 provinces of China with many different backgrounds. Its history can be traced back to 1901 when it existed as Danforth Hospital Nursing School.\n" +
                 "\n" +
@@ -425,9 +425,9 @@ public class University_Details_China
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/cEozYGtub1t\n");
 
-        YUNNAN.put("logo", R.drawable.kirov_logo);
+        YUNNAN.put("logo", R.drawable.yunnan_logo);
 
-        YUNNAN.put("image", R.drawable.kirov);
+        YUNNAN.put("image", R.drawable.yunnan_img);
 
         YUNNAN.put("intoduction", "Yunnan University, founded in 1923, is one of the oldest universities in China and was put into the world-known Concise Encyclopaedia Britannia as one of the fifteen internationally prestigious universities in China. Yunnan University has been developing rapidly by availing itself of “Project 211” (100 institutions of higher education and key disciplinary areas strengthened as a national priority for the 21st century) membership status. Yunnan University receives intensive support from the national government in teaching Chinese as a foreign language and was conferred as one of the ten key institutions that facilitate Chinese teaching in neighbouring countries under the guidance of the Office of Chinese Language Council International. The university is one of the few HSK (Chinese Proficiency Test) centers for all levels. The university attaches importance to enhancing the mutual understanding and friendship between the Chinese people and other peoples of the neighbouring countries, and promoting economic and trade cooperation as well as scientific, technological and cultural exchanges between them. College of International Students is a professional institution of Yunnan University where international students register to learn Chinese language and culture. It is responsible for teaching international students Chinese and offering them help.\n" +
                 "College of International Students of Yunnan University has hosted more than 15,000 students and overseas Chinese teachers from some 30 countries. Currently, there are more than 30 full-time teachers in the college, among whom there are 4 senior professors, 6 associate professors. 4 of the staff hold doctorate degrees, while 10 hold master’s degrees. Most of the teachers have taught or studied in Spain, the United States of America, Australia, Italy, Japan and Thailand. The teachers are experienced in teaching Chinese as a foreign language and have saturated in diversified cultural contexts  College of International Students of Yunnan University boasts excellent teachers, fresh air, convenient entertainment and living facilities. With an international and diversified cultural environment, the college is the very place for international students to learn Chinese language and culture.\n");
@@ -518,9 +518,9 @@ public class University_Details_China
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/1ADkV5CcjpR2\n");
 
-        BEIHUA.put("logo", R.drawable.kirov_logo);
+        BEIHUA.put("logo", R.drawable.beihua_logo);
 
-        BEIHUA.put("image", R.drawable.kirov);
+        BEIHUA.put("image", R.drawable.beihua_img);
 
         BEIHUA.put("intoduction", "Beihua University is a province-owned comprehensive university whose scope is the most extensive one. Approved by the Ministry of Education, it was founded in 1999 by the combination of the original Jilin Teacher's college, Jilin Medical College, Jilin Forestry College and Jilin Electrification Academy. It is situated in the Rime Metropolis and Charming City --- Jilin.\n" +
                 "　　 The university has four campuses: the south, the north, the east, and the west campus, which totally occupies an area of 1,263,700 square meters with a floor space up to 830,300square meters. The gross value of its equipments is 184,000,000 RMB. The total collection of the university library reaches 2,562,700 volumes. Currently, the University has the total enrollments of 22,100 students, including 18,803 undergraduate students. The University has 27 academic colleges (Law School, School of Education Science, College of Physical Education, School of Chinese Language and Culture, Foreign Languages' College, College of Music, College of Fine Arts, College of History and Culture, College of Mathematics, College of Physics, College of Chemistry and Biology, College of Mechanical Engineering, College of Electrical and Information Engineering, School of Computer science and Technology, College of Software, College of Transportation and Civil Engineering, College of Forestry, College of Basic Medicine, College of Public Health, No. 1 Clinical Medical College (Affiliated Hospital), College of Medical Test, College of Stomatology, College of Nursing, College of Pharmacy, School of Economic Management, College of Adults and Continuing Education and International Education and Exchange Institute), besides, 3 departments (centers) (College Foreign Languages’ Department, Educational Technology Center, Engineering Training Center), it offers 70 undergraduate specialties, containing 10 kinds of specialties (Economics, Law, Education, Literature, History, Science, Engineering, Agriculture, Medicine and Management); 38 Master's programs, 1 Professional Master’s program (of Medicine), containing 9 kinds of specialties, 21 courses of first class; 1 national Forestry key specialty (Forest Cultivation); 6 provincial key specialty ((Forest Cultivation, Clinical Test and Diagnosis, Special History, Medicine, Power Electronics and Electric Transmission, Curriculum and Teaching Theory); 1 provincial key lab ( Forest and Ecological Environment); 1 provincial key research base of Human Social Science (East Asia History and Culture Research Center); 1 provincial base for Post-Doctoral science research and innovative undertaking; 1 provincial demonstration center for college experiments and teaching( Basic Experiment and Teaching Center for Medical and Examination and Test ); 1 provincial key constructing experiment center (Engineering Training Center); it is the base of cultural quality education for national college students; which is the sole educational and training base of psychological health for provincial college students. " +
@@ -599,50 +599,65 @@ public class University_Details_China
 
 
         /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
+        JSONObject CAPITAL = new JSONObject();
 
-        obj.put("country", "China");
+        CAPITAL.put("country", "China");
 
-        obj.put("name", "CAPITAL MEDICAL UNIVERSITY");
+        CAPITAL.put("name", "CAPITAL MEDICAL UNIVERSITY");
 
-        obj.put("overview", "");
+        CAPITAL.put("overview", "CAPITAL MEDICAL UNIVERSITYwas established in 1999\n" +
+                "Google Rating -5 star\n" +
+                "Address- China, Beijing Shi, Fengtai Qu 100054\n" +
+                "MCI Approved\n" +
+                "WHO Approved\n" +
+                "Google map - https://goo.gl/maps/GbyrqQ63R872\n");
 
-        obj.put("logo", R.drawable.kirov_logo);
+        CAPITAL.put("logo", R.drawable.capital_logo);
 
-        obj.put("image", R.drawable.kirov);
+        CAPITAL.put("image", R.drawable.capital_img);
 
-        obj.put("intoduction", "");
+        CAPITAL.put("intoduction", "Capital Medical University (CMU) formerly known as Beijing second medical college was founded in 1960. It ranks among the top academic medical institutions in China and is one of the key municipal universities in Beijing. Professor Wu Jieping, the founding president of the university, was a world famous urologist as well as a member of the Chinese Academy of Sciences and the Chinese Academy of Engineering. Today, six members of teaching staff are members of these prestigious academies, enhancing the university’s domestic reputation further.\n" +
+                "CCMU consists of 10 Schools, 14 affiliated hospitals and 1 teaching institution. The university has over 9,000 enrolled students. CMU provides a wide range of educational programs in English language for Doctorates, Masters, Bachelors and certificates.\n" +
+                "CMU is a well-known academic institution for its strong capacity in scientific research. It hosts many key national and municipal disciplines, laboratories and exchange stations for post-doctoral research. High-caliber national and municipal research and training centers and institutes are founded here, covering a wide range of fields including General Practitioner Training, Clinical Medicine, Basic Medicine, Neurosciences, Ophthalmology, Geriatrics, Urology, Cardiology, Pain Medicine, Toxicology, Biomedical Engineering, Traditional Chinese Medicine, Reproduction, Health Policy, etc.\n" +
+                "University has achieved national and international recognitions in many areas such as Neurobiology, Cytobiology, Immunology, Medical Iconography, Neurology, Neurosurgery, Cardiology, Cardiac-vascular Surgery, Kidney Transplantation, Respiratory Disease, Digestive Medicine, Oral-Maxillofacial Surgery, Ophthalmology, Otolaryngology and PaediatricHaematology, among others.\n" +
+                "Studying in Beijing-\n" +
+                "Beijing is home to a great number of colleges and universities, including several well-regarded universities of international stature. Many international students from Japan, Korea, North America, Europe, Southeast Asia, and elsewhere come to Beijing to study every year. Living in Beijing, part of your daily commute to class might involve seeing some of the opulent palaces, pagodas, temples, iconic landmarks, tombs and gardens.\n" +
+                "Beijing is certainly not a destination for those looking for a ‘small-town’ feel. But if you like the idea of studying in a city with strong international career opportunities, while keeping a finger to the pulse of one of the world’s fastest-developing countries, then this dynamic metropolis at the centre of the world’s most populous nation could be for you.\n" +
+                "CMU is made up of six campuses located throughout the capital. The Main Campus and the CCMU International Campus both are located in Fengtai District, whiles Shunyi Campus in Shunyi District, Wanshoulu Campus in Haidian District, Hepingli Campus in Dongcheng District, and Dongsishitiao Campus in Dongcheng District. International students study and live mainly on the CCMU International Campus.\n" +
+                "University campuses are within easy reach by public transportation and it consists of Library, International and Local Restaurants, Student Dining Hall, Tennis Courts, Soccer Fields, Gymnasium, Indoor Basketball Courts, Outdoor Basketball Courts and Indoor Swimming Pool.\n");
 
 
-        obj.put("Eligibility", "");
+        CAPITAL.put("Eligibility", "The student shall complete the age of 17 years on or before 31st December of the year of admission.\n" +
+                "•\tThe student should have obtained 50% marks in the 12th standard examination. Students belonging SC/ST and OBC category are eligible having 40% marks in aggregate in the 12th standard examination.\n" +
+                "•\tThe eligibility certificate is a legal proof given by the MCI that the medical university, which the student attends to study MBBS abroad, is authorized by the medical education regulator. And the MCI has now made it very clear to the students opting to study MBBS in foreign universities that they will have to clear their NEET examination even if they want to study abroad. To clear the NEET exam, a student needs to score a minimum of 50 percentile for general category and 40 percent for reserved category. This condition will be mandatory for the students from May 01, 2018 onwards.\n");
 
 
-        obj.put("facilities", "•\tfood \n" +
+        CAPITAL.put("facilities", "•\tfood \n" +
                 "•\tHostel\n" +
                 "•\tHospital\n" +
                 "•\tLibrary\n");
 
         feeArray = new JSONArray();
         temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
+        temp_obj2.put("column1", "39000");
+        temp_obj2.put("column2", "39000");
+        temp_obj2.put("column3", "39000");
+        temp_obj2.put("column4", "39000");
+        temp_obj2.put("column5", "39000");
         temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
+        temp_obj2.put("column7", "1,95,000");
 
         temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
+        temp_obj3.put("column1", "3,90,000");
+        temp_obj3.put("column2", "3,90,000");
+        temp_obj3.put("column3", "3,90,000");
+        temp_obj3.put("column4", "3,90,000");
+        temp_obj3.put("column5", "3,90,000");
         temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
+        temp_obj3.put("column7", "19,50,000");
 
         temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
+        temp_obj4.put("column1", "1,80,000");
         temp_obj4.put("column2", "-");
         temp_obj4.put("column3", "-");
         temp_obj4.put("column4", "-");
@@ -651,32 +666,32 @@ public class University_Details_China
         temp_obj4.put("column7", "-");
 
         temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
+        temp_obj5.put("column1", "1,10,000");
+        temp_obj5.put("column2", "1,10,000");
+        temp_obj5.put("column3", "1,10,000");
+        temp_obj5.put("column4", "1,10,000");
+        temp_obj5.put("column5", "1,10,000");
         temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
+        temp_obj5.put("column7", "5,50,000");
 
         temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
+        temp_obj6.put("column1", "6,80,000");
+        temp_obj6.put("column2", "5,00,000");
+        temp_obj6.put("column3", "5,00,000");
+        temp_obj6.put("column4", "5,00,000");
+        temp_obj6.put("column5", "5,00,000");
         temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
+        temp_obj6.put("column7", "26,80,000");
         feeArray.put(temp_obj2);
         feeArray.put(temp_obj3);
         feeArray.put(temp_obj4);
         feeArray.put(temp_obj5);
         feeArray.put(temp_obj6);
 
-        obj.put("fee", feeArray);
+        CAPITAL.put("fee", feeArray);
 
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
+        CAPITAL.put("feedetails", " ");
+        CAPITAL.put("services", "Pre- Departure\n" +
                 "                                        Post Departure\n" +
                 "                                        Documentation Assistance\n" +
                 "                                        Visa process\n");
@@ -684,50 +699,64 @@ public class University_Details_China
 
 
         /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
+        JSONObject USC = new JSONObject();
 
-        obj.put("country", "China");
+        USC.put("country", "China");
 
-        obj.put("name", "DHAKA CENTRAL INT MEDICAL COLLEGE");
+        USC.put("name", "UNIVERSITY OF SOUTH CHINA (USC)");
 
-        obj.put("overview", "");
+        USC.put("overview", "UNIVERSITY OF SOUTH CHINA (USC)was established in 1958\n" +
+                "Google Rating -5 star\n" +
+                "Address- China, Hunan Sheng, Hengyang Shi, Zhengxiang Qu, 28 Changsheng West Road\n" +
+                "MCI Approved\n" +
+                "WHO Approved\n" +
+                "Google map - https://goo.gl/maps/T2EwbScQ6Zk\n");
 
-        obj.put("logo", R.drawable.kirov_logo);
+        USC.put("logo", R.drawable.usc_logo);
 
-        obj.put("image", R.drawable.kirov);
+        USC.put("image", R.drawable.usc_img);
 
-        obj.put("intoduction", "");
+        USC.put("intoduction", "University of South China (hereafter USC or the University), is a comprehensive public university with a history of about 60 years, co-funded by Ministry of Industry and Information Technology, State Administration of Science, Technology and Industry for National Defense, China National Nuclear Corporation, China Nuclear Engineering Group Corporation, and the People’s Government of Hunan Province.\n" +
+                "The University was merged in 2000 by Hengyang Medical College, founded in 1958 and administrated by Hunan Province, Central South Institute of Technology, in 1959, and the 6th Nuclear Institute, in 1962, both administrated by the former Ministry of Nuclear Industry.\n" +
+                " One of the yiben, or first tier universities on the Mainland, China, USC enrolls students from the Mainland, Hongkong, Macao, Taiwan and other parts of the world. \n" +
+                "The University is home to over 2,500 faculty members, and over 37,000 full-time students, of whom 33,000 are undergraduates and 4000, master or doctor degree candidates.\n" +
+                "Situated in Hengyang, a historical and cultural city in central Hunan, China, with a total area of 200 hectares, USC comprises 26 colleges and schools, 4 affiliated hospitals and 21 teaching hospitals.\n" +
+                "USC is a chartered training base for Reserve Naval Officers of the People’s Liberation Army. \n" +
+                "Motto:    morals, knowledge, truth, and ambition\n" +
+                "Vision: To become an education and research oriented institution with distinctive features--top-notch in the province, high-ranked in the country and well-known in the world.\n");
 
 
-        obj.put("Eligibility", "");
+        USC.put("Eligibility", "The student shall complete the age of 17 years on or before 31st December of the year of admission.\n" +
+                "•\tThe student should have obtained 50% marks in the 12th standard examination. Students belonging SC/ST and OBC category are eligible having 40% marks in aggregate in the 12th standard examination.\n" +
+                "•\tThe eligibility certificate is a legal proof given by the MCI that the medical university, which the student attends to study MBBS abroad, is authorized by the medical education regulator. And the MCI has now made it very clear to the students opting to study MBBS in foreign universities that they will have to clear their NEET examination even if they want to study abroad. To clear the NEET exam, a student needs to score a minimum of 50 percentile for general category and 40 percent for reserved category. This condition will be mandatory for the students from May 01, 2018 onwards.\n");
 
 
-        obj.put("facilities", "•\tfood \n" +
+        USC.put("facilities", "•\tfood \n" +
                 "•\tHostel\n" +
                 "•\tHospital\n" +
                 "•\tLibrary\n");
 
         feeArray = new JSONArray();
         temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
-        temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
+        temp_obj2.put("column1", "16000");
+        temp_obj2.put("column2", "16000");
+        temp_obj2.put("column3", "16000");
+        temp_obj2.put("column4", "16000");
+        temp_obj2.put("column5", "16000");
+        temp_obj2.put("column6", "16000");
+        temp_obj2.put("column7", "80,000");
 
         temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
-        temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
+        temp_obj3.put("column1", "1,60,000");
+        temp_obj3.put("column2", "1,60,000");
+        temp_obj3.put("column3", "1,60,000");
+        temp_obj3.put("column4", "1,60,000");
+        temp_obj3.put("column5", "1,60,000");
+        temp_obj3.put("column6", "1,60,000");
+        temp_obj3.put("column7", "80,00,000");
 
         temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
+        temp_obj4.put("column1", "1,50,000");
         temp_obj4.put("column2", "-");
         temp_obj4.put("column3", "-");
         temp_obj4.put("column4", "-");
@@ -736,118 +765,32 @@ public class University_Details_China
         temp_obj4.put("column7", "-");
 
         temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
-        temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
+        temp_obj5.put("column1", "30,000");
+        temp_obj5.put("column2", "30,000");
+        temp_obj5.put("column3", "30,000");
+        temp_obj5.put("column4", "30,000");
+        temp_obj5.put("column5", "30,000");
+        temp_obj5.put("column6", "30,000");
+        temp_obj5.put("column7", "1,50,000");
 
         temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
-        temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
+        temp_obj6.put("column1", "3,40,000");
+        temp_obj6.put("column2", "1,90,000");
+        temp_obj6.put("column3", "1,90,000");
+        temp_obj6.put("column4", "1,90,000");
+        temp_obj6.put("column5", "1,90,000");
+        temp_obj6.put("column6", "1,90,000");
+        temp_obj6.put("column7", "11,00,000");
         feeArray.put(temp_obj2);
         feeArray.put(temp_obj3);
         feeArray.put(temp_obj4);
         feeArray.put(temp_obj5);
         feeArray.put(temp_obj6);
 
-        obj.put("fee", feeArray);
+        USC.put("fee", feeArray);
 
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
-                "                                        Post Departure\n" +
-                "                                        Documentation Assistance\n" +
-                "                                        Visa process\n");
-
-
-
-
-        /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
-
-        obj.put("country", "China");
-
-        obj.put("name", "DHAKA CENTRAL INT MEDICAL COLLEGE");
-
-        obj.put("overview", "");
-
-        obj.put("logo", R.drawable.kirov_logo);
-
-        obj.put("image", R.drawable.kirov);
-
-        obj.put("intoduction", "");
-
-
-        obj.put("Eligibility", "");
-
-
-        obj.put("facilities", "•\tfood \n" +
-                "•\tHostel\n" +
-                "•\tHospital\n" +
-                "•\tLibrary\n");
-
-        feeArray = new JSONArray();
-        temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
-        temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
-
-        temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
-        temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
-
-        temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
-        temp_obj4.put("column2", "-");
-        temp_obj4.put("column3", "-");
-        temp_obj4.put("column4", "-");
-        temp_obj4.put("column5", "-");
-        temp_obj4.put("column6", "-");
-        temp_obj4.put("column7", "-");
-
-        temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
-        temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
-
-        temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
-        temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
-        feeArray.put(temp_obj2);
-        feeArray.put(temp_obj3);
-        feeArray.put(temp_obj4);
-        feeArray.put(temp_obj5);
-        feeArray.put(temp_obj6);
-
-        obj.put("fee", feeArray);
-
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
+        USC.put("feedetails", " ");
+        USC.put("services", "Pre- Departure\n" +
                 "                                        Post Departure\n" +
                 "                                        Documentation Assistance\n" +
                 "                                        Visa process\n");
@@ -856,50 +799,66 @@ public class University_Details_China
 
 
         /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
+        JSONObject CHINA_Medical = new JSONObject();
 
-        obj.put("country", "China");
+        CHINA_Medical.put("country", "China");
 
-        obj.put("name", "DHAKA CENTRAL INT MEDICAL COLLEGE");
+        CHINA_Medical.put("name", "CHINA MEDICAL UNIVERSITY");
 
-        obj.put("overview", "");
+        CHINA_Medical.put("overview", "UNIVERSITY OF SOUTH CHINA (USC) was established in 1958\n" +
+                "Google Rating -5 star\n" +
+                "Address- 77 Puhe Rd, ShenbeiXinqu, Shenyang Shi, Liaoning Sheng, China\n" +
+                "MCI Approved\n" +
+                "WHO Approved\n" +
+                "Google map - https://goo.gl/maps/34a5gBekyz92\n");
 
-        obj.put("logo", R.drawable.kirov_logo);
+        CHINA_Medical.put("logo", R.drawable.china_logo);
 
-        obj.put("image", R.drawable.kirov);
+        CHINA_Medical.put("image", R.drawable.china_img);
 
-        obj.put("intoduction", "");
+        CHINA_Medical.put("intoduction", "China Medical University is located in Shenyang, Liaoning province. It was the first medical school established by the Chinese Communist Party. It was the only school that had finished the entire 12,500 kilometerLong Marchwhile persisted in running the school. It was also one of the earliest schools that delivered college education of western medicine in China.\n" +
+                "\n" +
+                "The predecessor of the university was the Military Medical School of the Chinese Workers’ and Peasants’ Red Army. It was founded in October of 1931with the approval of The Central Military Commission in Ruijin of Jiangxi province which was the birthplace of the Provisional Central Government of the Soviet Republic of China. It was the first medical school established by the Chinese Communist Party. He Cheng, Chief of the General Military Medical Department of the Central Military Commission held a concurrent post as the principal. The opening ceremony was held in Yudu, Jiangxi province on February 22nd, 1932. Comrade Mao Zedong formulated the principles of “firm in political belief, outstanding at technical skills” and Commander-in-chief Zhu De made a speech. In October 1932, the Central Military Commission approved to change the name of the school to the Health School of the Chinese Workers’ and Peasants’ Red Army. In October 1934, as part of the division directly subordinated to the Military Commission, the school left Ruijin to join the famous 12,500 kilometer Long March and carried outrescue works while persisting in running the school, which makes a record unparalleled in history in both the histories of Chinese Communist Party and medical education of people’s army. \n" +
+                "\n" +
+                " In December 1935, the school arrived at the north of Shaanxi province and started running in Wayaobu. In January 1937, it moved to Yan’an and in August of the same year changed its name to the Health School of the Eighth Route Army. The school marched to the anti-Japanese front line with General Health Ministry. The faculty and students took active parts in the rescue work in Battle of Pingxingguan and Battle of Yangmingbu. In September 1940, proposed by Comrade Mao Zedong and approved by Central Committee of Chinese Communist Party, the school changed its name to China Medical University. In 1941, Comrade Mao Zedong wrote for the first graduates of China Medical University (14th graduates since the establishment of the school) the inscription “Heal the wounded, rescue the dying, and practice revolutionary humanitarianism.” This inscription has since become the action guide for CMU people and ultimately become the motto for all medical workers of the country. \n" +
+                "\n" +
+                "In November 1945, under the instructions of the Central Committee of Chinese Communist Party about establishing and consolidating northeastern revolutionary base, China Medical University pushed upwards to the Northeast from Yan’an. In July 1946, it arrived at Xingshan, Heilongjiang province(present Hegang city) and absorbed Northeast Military Medical University (former Harbin Army Medical School). In January 1947, it absorbed the Medical College of Northeast University and part of former Harbin Medical University and in 1948 it established four branch schools with the first and second branch schools later developed into present Harbin Medical University, the third branch moving back to university headquarter and the forth branch developed into present Chengde Medical College. \n" +
+                "\n" +
+                "In November 1948, the whole northeast of China was liberated and the university was ordered to move to Shenyang. It absorbed and took over the former national Shenyang Medical School (formerly known as the Manchuria Medical College established by the Japanese South Manchuria Railway in 1911) and the former private Liaoning Medical College (formerly known as Mukden Medical College, founded by the United Presbyterian Church of Scotland in 1883). In October 1952, according to the decision of the State Department of Education on the adjustment of departments, the school of pharmacy separated from the CMU and formed a new school as Northern-East pharmacy school (present Shenyang Pharmaceutical University). In August 1954, China Medical University was put under the administration of national Ministry of Health. In September 1956, China Medical University changed its name to Shenyang Medical College under the instructions of the State Council, but regained its name “ China Medical University” in January 1978. In 2000, the university started to be administrated jointly by Liaoning province and Ministry of Health of PRC; In December 2015, the university became a co-constructed university by Liaoning provincial government, National Health and Family Planning Commission and Ministry of Education.\n" +
+                "China Medical University is now facing unprecedented development opportunities. The faculty and students will work together and dedicate themselves to striving to build a first-class national medical university with a worldwide reputation.\n");
 
 
-        obj.put("Eligibility", "");
+        CHINA_Medical.put("Eligibility", "The student shall complete the age of 17 years on or before 31st December of the year of admission.\n" +
+                "•\tThe student should have obtained 50% marks in the 12th standard examination. Students belonging SC/ST and OBC category are eligible having 40% marks in aggregate in the 12th standard examination.\n" +
+                "•\tThe eligibility certificate is a legal proof given by the MCI that the medical university, which the student attends to study MBBS abroad, is authorized by the medical education regulator. And the MCI has now made it very clear to the students opting to study MBBS in foreign universities that they will have to clear their NEET examination even if they want to study abroad. To clear the NEET exam, a student needs to score a minimum of 50 percentile for general category and 40 percent for reserved category. This condition will be mandatory for the students from May 01, 2018 onwards.\n");
 
 
-        obj.put("facilities", "•\tfood \n" +
+        CHINA_Medical.put("facilities", "•\tfood \n" +
                 "•\tHostel\n" +
                 "•\tHospital\n" +
                 "•\tLibrary\n");
 
         feeArray = new JSONArray();
         temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
+        temp_obj2.put("column1", "40000");
+        temp_obj2.put("column2", "40000");
+        temp_obj2.put("column3", "40000");
+        temp_obj2.put("column4", "40000");
+        temp_obj2.put("column5", "40000");
         temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
+        temp_obj2.put("column7", "2,00,000");
 
         temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
+        temp_obj3.put("column1", "4,00,000");
+        temp_obj3.put("column2", "4,00,000");
+        temp_obj3.put("column3", "4,00,000");
+        temp_obj3.put("column4", "4,00,000");
+        temp_obj3.put("column5", "4,00,000");
         temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
+        temp_obj3.put("column7", "20,00,000");
 
         temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
+        temp_obj4.put("column1", "2,80,000");
         temp_obj4.put("column2", "-");
         temp_obj4.put("column3", "-");
         temp_obj4.put("column4", "-");
@@ -908,32 +867,32 @@ public class University_Details_China
         temp_obj4.put("column7", "-");
 
         temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
+        temp_obj5.put("column1", "75,000");
+        temp_obj5.put("column2", "75,000");
+        temp_obj5.put("column3", "75,000");
+        temp_obj5.put("column4", "75,000");
+        temp_obj5.put("column5", "75,000");
         temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
+        temp_obj5.put("column7", "3,78,000");
 
         temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
+        temp_obj6.put("column1", "7,55,000");
+        temp_obj6.put("column2", "7,55,000");
+        temp_obj6.put("column3", "7,55,000");
+        temp_obj6.put("column4", "7,55,000");
+        temp_obj6.put("column5", "7,55,000");
         temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
+        temp_obj6.put("column7", "26,55,000");
         feeArray.put(temp_obj2);
         feeArray.put(temp_obj3);
         feeArray.put(temp_obj4);
         feeArray.put(temp_obj5);
         feeArray.put(temp_obj6);
 
-        obj.put("fee", feeArray);
+        CHINA_Medical.put("fee", feeArray);
 
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
+        CHINA_Medical.put("feedetails", " ");
+        CHINA_Medical.put("services", "Pre- Departure\n" +
                 "                                        Post Departure\n" +
                 "                                        Documentation Assistance\n" +
                 "                                        Visa process\n");
@@ -942,50 +901,60 @@ public class University_Details_China
 
 
         /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
+        JSONObject THREE = new JSONObject();
 
-        obj.put("country", "China");
+        THREE.put("country", "China");
 
-        obj.put("name", "DHAKA CENTRAL INT MEDICAL COLLEGE");
+        THREE.put("name", "CHINA THREE GORGES UNIVERSITY");
 
-        obj.put("overview", "");
+        THREE.put("overview", "CHINA THREE GORGES UNIVERSITYwas established in 2000\n" +
+                "Google Rating -5 star\n" +
+                "Address- 8 Daxue Rd, Xiling Qu, Yichang Shi, Hubei Sheng, China, 443003\n" +
+                "MCI Approved\n" +
+                "WHO Approved\n" +
+                "Google map - https://goo.gl/maps/naUwvDvBvqG2\n");
 
-        obj.put("logo", R.drawable.kirov_logo);
+        THREE.put("logo", R.drawable.three_logo);
 
-        obj.put("image", R.drawable.kirov);
+        THREE.put("image", R.drawable.three_img);
 
-        obj.put("intoduction", "");
+        THREE.put("intoduction", "Having been approved by the Ministry of Education, CTGU was founded in June 29, 2000, comprising the former Wuhan University of Hydraulic and Electric Engineering/Yichang and the former Hubei Sanxia College. The history of CTGU can be dated back to 1946, while the bachelor education started from 1978, and the postgraduate and international student education began from 1996. CTGU has the qualification to confer the degrees of bachelor, master and doctor, and to recruit international students of CSC scholarship and membership of UNAI. Moreover, the Ministry of Water Resources and the People’s Government of Hubei Province signed agreements in 2009 to build CTGU in joint effort. Beside, CTGU was awarded with “Advanced unit of opening up” by Hubei Provincial government in 2010; and was awarded with “Demonstration base of international student education”in 2014. By now, China Three Gorges University has become an comprehensive university with characteristic features of prominent discipline advantage, hydropower resources and great social reputation.  \n" +
+                "\n" +
+                "CTGU consists of 30 colleges, 72 undergraduate programs covering nine fields including science, engineering, medicine, arts, economics, management, law, education and fine arts. There are 5 national-level characteristic disciplines for undergraduates; 10 provincial-level branded disciplines for undergraduates; 7 disciplines selected as the instalment of “A plan for Educating and Training Outstanding Engineers” by the Ministry of Education, 10 disciplines taught in English; and 2 Chinese-foreign cooperative education programs; 2 primary discipline doctoral programs, 22primary discipline programs for graduate students, 184secondary discipline programs for graduate students, 17 professional program for graduate students (Engineering, MBA, MTI etc.) and 11 provincial key disciplines. CTGU has a large number of enrolled students, comprising more than 22,730 full-time undergraduate students, 4,131 postgraduate students and 1288 international students.\n" +
+                "CTGU has 2 national level experimental teaching demonstration center; 2 national level Engineering practice education centers; 1 national wild scientific observation research station of landslide in the Three Gorges area, Hubei Province, 1 key laboratory of the Ministry of Education in the Three Gorges reservoir area, 1 engineering technology research center of the Ministry of Education in geological disaster of the Three Gorges reservoir area, 1 ecology and environment engineering technology center of the Ministry of Education in the  Three Gorges reservoir area, 1 collaborative innovation center with the joint effort from Hubei Provincial government in geological disaster and eco-environment of the Three Gorges reservoir area, 5 provincial and ministerial-level key laboratories on disaster prevention and reduction, construction and management of hydraulic project, design and maintenance of mechanical equipment, research and utilization of natural product, etc., 2 former key laboratories of State Power Corporation on hydropower station simulation and geotechnical study, 18 teaching experiment(training) centers, including 169 functional laboratories, 8 provincial-level teaching experiment demonstration centers, and over 160 practical training centers and cooperative bases between education and production.\n");
 
 
-        obj.put("Eligibility", "");
+        THREE.put("Eligibility", "The student shall complete the age of 17 years on or before 31st December of the year of admission.\n" +
+                "•\tThe student should have obtained 50% marks in the 12th standard examination. Students belonging SC/ST and OBC category are eligible having 40% marks in aggregate in the 12th standard examination.\n" +
+                "•\tThe eligibility certificate is a legal proof given by the MCI that the medical university, which the student attends to study MBBS abroad, is authorized by the medical education regulator. And the MCI has now made it very clear to the students opting to study MBBS in foreign universities that they will have to clear their NEET examination even if they want to study abroad. To clear the NEET exam, a student needs to score a minimum of 50 percentile for general category and 40 percent for reserved category. This condition will be mandatory for the students from May 01, 2018 onwards.\n");
 
 
-        obj.put("facilities", "•\tfood \n" +
+        THREE.put("facilities", "•\tfood \n" +
                 "•\tHostel\n" +
                 "•\tHospital\n" +
                 "•\tLibrary\n");
 
         feeArray = new JSONArray();
         temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
+        temp_obj2.put("column1", "24000");
+        temp_obj2.put("column2", "24000");
+        temp_obj2.put("column3", "24000");
+        temp_obj2.put("column4", "24000");
+        temp_obj2.put("column5", "24000");
         temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
+        temp_obj2.put("column7", "2,00,000");
 
         temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
+        temp_obj3.put("column1", "2,40,000");
+        temp_obj3.put("column2", "2,40,000");
+        temp_obj3.put("column3", "2,40,000");
+        temp_obj3.put("column4", "2,40,000");
+        temp_obj3.put("column5", "2,40,000");
         temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
+        temp_obj3.put("column7", "12,00,000");
 
         temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
+        temp_obj4.put("column1", "2,80,000");
         temp_obj4.put("column2", "-");
         temp_obj4.put("column3", "-");
         temp_obj4.put("column4", "-");
@@ -994,32 +963,32 @@ public class University_Details_China
         temp_obj4.put("column7", "-");
 
         temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
+        temp_obj5.put("column1", "48,000");
+        temp_obj5.put("column2", "48,000");
+        temp_obj5.put("column3", "48,000");
+        temp_obj5.put("column4", "48,000");
+        temp_obj5.put("column5", "48,000");
         temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
+        temp_obj5.put("column7", "2,40,000");
 
         temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
+        temp_obj6.put("column1", "5,68,000");
+        temp_obj6.put("column2", "2,88,000");
+        temp_obj6.put("column3", "2,88,000");
+        temp_obj6.put("column4", "2,88,000");
+        temp_obj6.put("column5", "2,88,000");
         temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
+        temp_obj6.put("column7", "17,20,000");
         feeArray.put(temp_obj2);
         feeArray.put(temp_obj3);
         feeArray.put(temp_obj4);
         feeArray.put(temp_obj5);
         feeArray.put(temp_obj6);
 
-        obj.put("fee", feeArray);
+        THREE.put("fee", feeArray);
 
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
+        THREE.put("feedetails", " ");
+        THREE.put("services", "Pre- Departure\n" +
                 "                                        Post Departure\n" +
                 "                                        Documentation Assistance\n" +
                 "                                        Visa process\n");
@@ -1027,525 +996,18 @@ public class University_Details_China
 
 
 
-        /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
-
-        obj.put("country", "China");
-
-        obj.put("name", "DHAKA CENTRAL INT MEDICAL COLLEGE");
-
-        obj.put("overview", "");
-
-        obj.put("logo", R.drawable.kirov_logo);
-
-        obj.put("image", R.drawable.kirov);
-
-        obj.put("intoduction", "");
-
-
-        obj.put("Eligibility", "");
-
-
-        obj.put("facilities", "•\tfood \n" +
-                "•\tHostel\n" +
-                "•\tHospital\n" +
-                "•\tLibrary\n");
-
-        feeArray = new JSONArray();
-        temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
-        temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
-
-        temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
-        temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
-
-        temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
-        temp_obj4.put("column2", "-");
-        temp_obj4.put("column3", "-");
-        temp_obj4.put("column4", "-");
-        temp_obj4.put("column5", "-");
-        temp_obj4.put("column6", "-");
-        temp_obj4.put("column7", "-");
-
-        temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
-        temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
-
-        temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
-        temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
-        feeArray.put(temp_obj2);
-        feeArray.put(temp_obj3);
-        feeArray.put(temp_obj4);
-        feeArray.put(temp_obj5);
-        feeArray.put(temp_obj6);
-
-        obj.put("fee", feeArray);
-
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
-                "                                        Post Departure\n" +
-                "                                        Documentation Assistance\n" +
-                "                                        Visa process\n");
-
-
-
-
-        /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
-
-        obj.put("country", "China");
-
-        obj.put("name", "DHAKA CENTRAL INT MEDICAL COLLEGE");
-
-        obj.put("overview", "");
-
-        obj.put("logo", R.drawable.kirov_logo);
-
-        obj.put("image", R.drawable.kirov);
-
-        obj.put("intoduction", "");
-
-
-        obj.put("Eligibility", "");
-
-
-        obj.put("facilities", "•\tfood \n" +
-                "•\tHostel\n" +
-                "•\tHospital\n" +
-                "•\tLibrary\n");
-
-        feeArray = new JSONArray();
-        temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
-        temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
-
-        temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
-        temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
-
-        temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
-        temp_obj4.put("column2", "-");
-        temp_obj4.put("column3", "-");
-        temp_obj4.put("column4", "-");
-        temp_obj4.put("column5", "-");
-        temp_obj4.put("column6", "-");
-        temp_obj4.put("column7", "-");
-
-        temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
-        temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
-
-        temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
-        temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
-        feeArray.put(temp_obj2);
-        feeArray.put(temp_obj3);
-        feeArray.put(temp_obj4);
-        feeArray.put(temp_obj5);
-        feeArray.put(temp_obj6);
-
-        obj.put("fee", feeArray);
-
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
-                "                                        Post Departure\n" +
-                "                                        Documentation Assistance\n" +
-                "                                        Visa process\n");
-
-
-
-
-        /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
-
-        obj.put("country", "China");
-
-        obj.put("name", "DHAKA CENTRAL INT MEDICAL COLLEGE");
-
-        obj.put("overview", "");
-
-        obj.put("logo", R.drawable.kirov_logo);
-
-        obj.put("image", R.drawable.kirov);
-
-        obj.put("intoduction", "");
-
-
-        obj.put("Eligibility", "");
-
-
-        obj.put("facilities", "•\tfood \n" +
-                "•\tHostel\n" +
-                "•\tHospital\n" +
-                "•\tLibrary\n");
-
-        feeArray = new JSONArray();
-        temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
-        temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
-
-        temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
-        temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
-
-        temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
-        temp_obj4.put("column2", "-");
-        temp_obj4.put("column3", "-");
-        temp_obj4.put("column4", "-");
-        temp_obj4.put("column5", "-");
-        temp_obj4.put("column6", "-");
-        temp_obj4.put("column7", "-");
-
-        temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
-        temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
-
-        temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
-        temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
-        feeArray.put(temp_obj2);
-        feeArray.put(temp_obj3);
-        feeArray.put(temp_obj4);
-        feeArray.put(temp_obj5);
-        feeArray.put(temp_obj6);
-
-        obj.put("fee", feeArray);
-
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
-                "                                        Post Departure\n" +
-                "                                        Documentation Assistance\n" +
-                "                                        Visa process\n");
-
-
-
-
-        /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
-
-        obj.put("country", "China");
-
-        obj.put("name", "DHAKA CENTRAL INT MEDICAL COLLEGE");
-
-        obj.put("overview", "");
-
-        obj.put("logo", R.drawable.kirov_logo);
-
-        obj.put("image", R.drawable.kirov);
-
-        obj.put("intoduction", "");
-
-
-        obj.put("Eligibility", "");
-
-
-        obj.put("facilities", "•\tfood \n" +
-                "•\tHostel\n" +
-                "•\tHospital\n" +
-                "•\tLibrary\n");
-
-        feeArray = new JSONArray();
-        temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
-        temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
-
-        temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
-        temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
-
-        temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
-        temp_obj4.put("column2", "-");
-        temp_obj4.put("column3", "-");
-        temp_obj4.put("column4", "-");
-        temp_obj4.put("column5", "-");
-        temp_obj4.put("column6", "-");
-        temp_obj4.put("column7", "-");
-
-        temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
-        temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
-
-        temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
-        temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
-        feeArray.put(temp_obj2);
-        feeArray.put(temp_obj3);
-        feeArray.put(temp_obj4);
-        feeArray.put(temp_obj5);
-        feeArray.put(temp_obj6);
-
-        obj.put("fee", feeArray);
-
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
-                "                                        Post Departure\n" +
-                "                                        Documentation Assistance\n" +
-                "                                        Visa process\n");
-
-
-
-
-        /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
-
-        obj.put("country", "China");
-
-        obj.put("name", "DHAKA CENTRAL INT MEDICAL COLLEGE");
-
-        obj.put("overview", "");
-
-        obj.put("logo", R.drawable.kirov_logo);
-
-        obj.put("image", R.drawable.kirov);
-
-        obj.put("intoduction", "");
-
-
-        obj.put("Eligibility", "");
-
-
-        obj.put("facilities", "•\tfood \n" +
-                "•\tHostel\n" +
-                "•\tHospital\n" +
-                "•\tLibrary\n");
-
-        feeArray = new JSONArray();
-        temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
-        temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
-
-        temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
-        temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
-
-        temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
-        temp_obj4.put("column2", "-");
-        temp_obj4.put("column3", "-");
-        temp_obj4.put("column4", "-");
-        temp_obj4.put("column5", "-");
-        temp_obj4.put("column6", "-");
-        temp_obj4.put("column7", "-");
-
-        temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
-        temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
-
-        temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
-        temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
-        feeArray.put(temp_obj2);
-        feeArray.put(temp_obj3);
-        feeArray.put(temp_obj4);
-        feeArray.put(temp_obj5);
-        feeArray.put(temp_obj6);
-
-        obj.put("fee", feeArray);
-
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
-                "                                        Post Departure\n" +
-                "                                        Documentation Assistance\n" +
-                "                                        Visa process\n");
-
-
-
-
-        /////////////////////////////////////////////////////
-        JSONObject DHAKA = new JSONObject();
-
-        obj.put("country", "China");
-
-        obj.put("name", "DHAKA CENTRAL INT MEDICAL COLLEGE");
-
-        obj.put("overview", "");
-
-        obj.put("logo", R.drawable.kirov_logo);
-
-        obj.put("image", R.drawable.kirov);
-
-        obj.put("intoduction", "");
-
-
-        obj.put("Eligibility", "");
-
-
-        obj.put("facilities", "•\tfood \n" +
-                "•\tHostel\n" +
-                "•\tHospital\n" +
-                "•\tLibrary\n");
-
-        feeArray = new JSONArray();
-        temp_obj2 = new JSONObject();
-        temp_obj2.put("column1", "");
-        temp_obj2.put("column2", "");
-        temp_obj2.put("column3", "");
-        temp_obj2.put("column4", "");
-        temp_obj2.put("column5", "");
-        temp_obj2.put("column6", "-");
-        temp_obj2.put("column7", "");
-
-        temp_obj3 = new JSONObject();
-        temp_obj3.put("column1", "-");
-        temp_obj3.put("column2", "-");
-        temp_obj3.put("column3", "-");
-        temp_obj3.put("column4", "-");
-        temp_obj3.put("column5", "-");
-        temp_obj3.put("column6", "-");
-        temp_obj3.put("column7", "-");
-
-        temp_obj4 = new JSONObject();
-        temp_obj4.put("column1", "-");
-        temp_obj4.put("column2", "-");
-        temp_obj4.put("column3", "-");
-        temp_obj4.put("column4", "-");
-        temp_obj4.put("column5", "-");
-        temp_obj4.put("column6", "-");
-        temp_obj4.put("column7", "-");
-
-        temp_obj5 = new JSONObject();
-        temp_obj5.put("column1", "-");
-        temp_obj5.put("column2", "-");
-        temp_obj5.put("column3", "-");
-        temp_obj5.put("column4", "-");
-        temp_obj5.put("column5", "-");
-        temp_obj5.put("column6", "-");
-        temp_obj5.put("column7", "-");
-
-        temp_obj6 = new JSONObject();
-        temp_obj6.put("column1", "");
-        temp_obj6.put("column2", "");
-        temp_obj6.put("column3", "");
-        temp_obj6.put("column4", "");
-        temp_obj6.put("column5", "");
-        temp_obj6.put("column6", "-");
-        temp_obj6.put("column7", "");
-        feeArray.put(temp_obj2);
-        feeArray.put(temp_obj3);
-        feeArray.put(temp_obj4);
-        feeArray.put(temp_obj5);
-        feeArray.put(temp_obj6);
-
-        obj.put("fee", feeArray);
-
-        obj.put("feedetails", " ");
-        obj.put("services", "Pre- Departure\n" +
-                "                                        Post Departure\n" +
-                "                                        Documentation Assistance\n" +
-                "                                        Visa process\n");
-
-
-
-
-
-
-
-        return null;
+        JSONArray allColleges = new JSONArray();
+        allColleges.put(HUBEI);
+        allColleges.put(JILIN);
+        allColleges.put(KUNMING);
+        allColleges.put(JIUJIANG);
+        allColleges.put(YUNNAN);
+        allColleges.put(BEIHUA);
+        allColleges.put(CAPITAL);
+        allColleges.put(USC);
+        allColleges.put(CHINA_Medical);
+        allColleges.put(THREE);
+
+        return allColleges.getJSONObject(varCollegeName);
     }
 }

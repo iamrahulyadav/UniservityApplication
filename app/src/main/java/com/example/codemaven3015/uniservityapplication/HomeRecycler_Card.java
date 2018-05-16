@@ -1,11 +1,13 @@
 package com.example.codemaven3015.uniservityapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
@@ -23,15 +25,15 @@ public class HomeRecycler_Card extends RecyclerView.Adapter<HomeRecycler_Card.Vi
 
     }
     private int[] images = {
-            R.drawable.image,R.drawable.image,R.drawable.image,
-            R.drawable.image,R.drawable.image,R.drawable.image,
-            R.drawable.image,R.drawable.image,R.drawable.image};
+            R.drawable.bangladesh,R.drawable.flag_of_belarus,R.drawable.china,
+            R.drawable.flag_of_georgia,R.drawable.flag_of_kazakhstan,R.drawable.kyrgyzstan,
+            R.drawable.nepal,R.drawable.philippines,R.drawable.poland,R.drawable.russia,R.drawable.ukraine_flag};
 
 
 
-    private String[] text = {"Ukrain","INDIA","INDIA",
-            "INDIA","INDIA","INDIA",
-            "INDIA","INDIA","INDIA"};
+    private String[] text = {"BANGLADESH","BELARUS","CHINA","GEORGIA","KAZAKSHTAN",
+            "KYRAGYZSTAN","NEPAL","PHILLIPINES","POLAND",
+            "RUSSIA","UKRAIN"};
 
 
 
@@ -62,13 +64,24 @@ public class HomeRecycler_Card extends RecyclerView.Adapter<HomeRecycler_Card.Vi
 
         ImageView card_img;;
         TextView card_textview;
+        LinearLayout LinearLayoutOnclickHome;
 
 
         public ViewHolder(View itemView) {
             super(itemView);
-            card_img=itemView.findViewById(R.id.card_img);
-            card_textview=itemView.findViewById(R.id.card_textview);
-    }
+            card_img = itemView.findViewById(R.id.card_img);
+            card_textview = itemView.findViewById(R.id.card_textview);
+            LinearLayoutOnclickHome = itemView.findViewById(R.id.LinearLayoutOnclickHome);
+            LinearLayoutOnclickHome.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int i = getAdapterPosition();
+                    Intent inten = new Intent(context, Colleges.class);
+                    inten.putExtra("menu", i + "");
+                    context.startActivity(inten);
+                }
+            });
+        }
 
 
 

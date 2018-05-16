@@ -9,8 +9,7 @@
     tools:showIn="@layout/app_bar_home">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/login_bg">
+        android:layout_height="match_parent">
 
 
             <ImageView
@@ -55,103 +54,27 @@
                 android:textSize="@dimen/mediumFont" />
 
             <TextView
-                android:layout_above="@+id/countriesList"
+                android:layout_above="@+id/Popular_Product"
                 android:layout_width="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:layout_gravity="center"
-                android:textColor="@color/cardview_dark_background"
+                android:textColor="@color/dark_purple"
                 android:textSize="@dimen/smallFontL"
-                android:text="POPULAR COUNTRY TO STUDY ABROAD"/>
+                android:text="POPULAR COUNTRY TO STUDY ABROAD" />
 
-        <!--<android.support.v7.widget.RecyclerView-->
-        <!--android:layout_marginTop="10dp"-->
-        <!--android:id="@+id/Popular_Product"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:scrollbars="horizontal"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_centerVertical="true"-->
-        <!--android:layout_centerHorizontal="true" />-->
+        <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/Popular_Product"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
 
-        <LinearLayout
-            android:id="@+id/countriesList"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginBottom="30dp"
-            android:layout_alignParentBottom="true"
-            android:orientation="horizontal">
-            <LinearLayout
-                android:id="@+id/UKRAINE_textview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_weight="1"
-                android:background="@drawable/border">
-
-                <ImageView
-                    android:id="@+id/card_img"
-                    android:layout_marginRight="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/ukraine_flag"
-                    android:scaleType="fitCenter"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:text="UKRAINE"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:textAlignment="center"
-                    android:textColor="@color/dark_purple"
-                    android:textSize="@dimen/smallFontL" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/RUSSIA_textview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginLeft="30dp"
-                android:layout_weight="1"
-                android:background="@drawable/border"
-                >
-
-                <ImageView
-                    android:id="@+id/card_img2"
-                    android:layout_marginRight="20dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_gravity="center"
-                    android:background="@drawable/russian_flag"
-                    android:scaleType="fitCenter"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="10dp"
-                    android:gravity="center"
-                    android:text="RUSSIA"
-                    android:textAlignment="center"
-                    android:layout_marginTop="10dp"
-                    android:textColor="@color/dark_purple"
-                    android:textSize="@dimen/smallFontL" />
-            </LinearLayout>
-        </LinearLayout>
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

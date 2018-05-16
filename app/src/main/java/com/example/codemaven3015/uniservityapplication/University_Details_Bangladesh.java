@@ -26,9 +26,9 @@ public class University_Details_Bangladesh {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/bio9coDmpjH2\n");
 
-        obj.put("logo", R.drawable.kirov_logo);
+        obj.put("logo", R.drawable.anwer_logo);
 
-        obj.put("image", R.drawable.kirov);
+        obj.put("image", R.drawable.anwer_img);
 
         obj.put("intoduction", "Reaching health care to every citizen is a millennium development goal and Bangladesh has achieved a great success in this. The present government has developed the healthcare system from union Parishad to Upazilla, District, Divisional level through community health clinic, Upazilla health complex, District & Divisional Hospital and Medical College Hospital both government & private. Doctors and supporting health care professional like nurse, Paramedics, auxiliary staff, Technologists are the backbone of the health care delivery system. At present the doctor population ratio in Bangladesh is only 1:3125.\n" +
                 "\n" +
@@ -148,9 +148,9 @@ public class University_Details_Bangladesh {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/X2qQpeL31At\n");
 
-        DHAKA.put("logo", R.drawable.kirov_logo);
+        DHAKA.put("logo", R.drawable.dhaka_logo);
 
-        DHAKA.put("image", R.drawable.kirov);
+        DHAKA.put("image", R.drawable.dhaka_img);
 
         DHAKA.put("intoduction", "Doctors and Supporting health professionals are the backbone of the health care delivery system. Yet the health care professionals & population ratio in our country is still one of the lowest in the world. At present the doctor population ratio in Bangladesh is 1: 3125. Till now the available seats in medical colleges, public & private sector together is far too short to meet the requirement of the countries ever growing need in this sector. In our country a large number of students are willing to take part in the health care system, which is evidenced by the large number of applicants for admission in medical colleges.\n" +
                 "Unfortunately most of the eligible candidates are deprived from the opportunity of getting admitted in the medical colleges of Bangladesh due to lack of enough seats: This results in confusion over the career planning of the eligible candidates, whose desires and dreams to be a doctor would be nipped in the bud. Also migration of thousands of students for studying abroad, mainly in the neighboring countries resulting in constant draining of our national economy for supporting their studies and as a consequence dependence on other countries for education and health care delivery grows immensely. In this context, Dhaka Central International Medical College and Hospital is a humble initiative to provide scope for the eligible candidates to contribute in the health sector of Bangladesh. DCIMCH is a brainchild of some of the most generous business entrepreneur, doctors and Philanthropist.\n" +
@@ -250,9 +250,9 @@ public class University_Details_Bangladesh {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/SWxw4WXxxYK2\n");
 
-        JALALABAD.put("logo", R.drawable.kirov_logo);
+        JALALABAD.put("logo", R.drawable.jalalabad_ragib_logo);
 
-        JALALABAD.put("image", R.drawable.kirov);
+        JALALABAD.put("image", R.drawable.jalalabad_ragib_img);
 
         JALALABAD.put("intoduction", "Jalalabad Ragib-Rabeya Medical College, Sylhet is situated in divisional headquarter of Sylhet Division and located at Ragib-Rabeya Medical College Road, Pathantula, Sylhet, Bangladesh. Jalalabad Ragib-Rabeya Medical College, Sylhet which is about 225 km from Dhaka, the capital of Bangladesh. Sylhet is the land of saints and sufis and may be termed as the spiritual centre of Bangladesh. It is surrounded by lush tea gardens, hills and valleys in a picturesque landscape. It has an excellent rail, road, air and river communications linking with capital City Dhaka as well as Port City Chittagong. It takes only 22 minutes by air from Dhaka to Sylhet and 41/2 hours by road.\n" +
                 "\n" +
@@ -384,9 +384,9 @@ public class University_Details_Bangladesh {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/EssYvbnkczF2\n");
 
-        NORTH.put("logo", R.drawable.kirov_logo);
+        NORTH.put("logo", R.drawable.north_logo);
 
-        NORTH.put("image", R.drawable.kirov);
+        NORTH.put("image", R.drawable.north_img);
 
         NORTH.put("intoduction", "For a long time the people of greater Sylhet have realized the Professional education and better health care services for community development. During the British period the community leaders were striving hard to establish a medical college in Sylhet with a view to develop the existing health care system.\n" +
                 "Accordingly the then government of Assam agreed to establish a Medical College at Sylhet and construction work of the college and the hostel building started here in 1934. But due to the influence of some evil high official adviser the project was shifted to Gouhati. The then Asam government while under pressure announced an official gazette that a medical school would be established at Sylhet instead of college. After some time the proposed building was converted to hospital in 1936 which was later upgraded to cater for British and allied troops of the Burma front in the Second World War. In the year 1948 the hospital was further upgraded and converted into a Medical School with appropriate teaching staff and residential accommodation in order to produce Licentiate Medical Faculty doctors (LMF).\n" +
@@ -479,9 +479,9 @@ public class University_Details_Bangladesh {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/UiFvSTvMU8u\n");
 
-        PARK.put("logo", R.drawable.kirov_logo);
+        PARK.put("logo", R.drawable.park_logo);
 
-        PARK.put("image", R.drawable.kirov);
+        PARK.put("image", R.drawable.park_img);
 
         PARK.put("intoduction", "With a view to establish a new Medical College& Hospital in an attempt to produce expert health manpower as well as to provide a low cost but without compromising 'quality' to provide optimum health care, a group of noble dreamers got together by 2008 under the banner of Parkview Health Care Pvt Ltd & Associates of Parkview Health Care Pvt Ltd. As a consequence, Parkview Medical College has opened its door with 1st batch of students of MBBS course from January 2014.\n" +
                 "Parkview Medical College has started its academic activities with sufficient teachers in all three preclinical departments of Phase-1(Anatomy, Physiology and Biochemistry), headed by well reputed senior teachers with a bunch of young, energetic & committed junior teachers. Hospital has set up a low cost specialized treatment facility for the common people which will eventually take shape of a centre of excellence in Bangladesh.There is specific target to create by phases all modern medical techniques and facilities and bring down the cost of treatment to an affordable range for the common people of the country without comprising the standard and quality of service. Now Parkview medical College & Hospital is providing round the clock emergency medical services with the help of its own doctors and specialists. There is service for outdoor patients with the help of concerned consultants. In the beginning, there are facilities of 250 beds for indoor patients in the Hospital and subsequently it will be increased up to 500 bed facilities by stages.\n" +
@@ -574,9 +574,9 @@ public class University_Details_Bangladesh {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/H2rituTLbSA2\n");
 
-        SYLHET.put("logo", R.drawable.kirov_logo);
+        SYLHET.put("logo", R.drawable.sylhet_logo);
 
-        SYLHET.put("image", R.drawable.kirov);
+        SYLHET.put("image", R.drawable.sylhet_img);
 
         SYLHET.put("intoduction", "Holy Land Private Limited and Sylhet Health and Education Services Limited joined together in 2005 for a noble cause in medical education and health care. Together they formed Holy Sylhet Holding Limited.\n" +
                 "In 2007, Holy Sylhet Holding Limited (HSHL) commenced the college and hospital with the permission of the Government of Bangladesh and after completing all the necessary formalities with the respective Ministries, Departments, Medical Associations and University.\n" +
@@ -666,7 +666,18 @@ public class University_Details_Bangladesh {
 
 
 
-        return obj;
+        //return obj;
+        JSONArray allColleges = new JSONArray();
+        allColleges.put(obj);
+        allColleges.put(DHAKA);
+        allColleges.put(JALALABAD);
+        allColleges.put(NORTH);
+        allColleges.put(PARK);
+        allColleges.put(SYLHET);
+
+
+        return allColleges.getJSONObject(varCollegeName);
+
     }
 
 }

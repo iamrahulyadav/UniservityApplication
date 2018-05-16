@@ -27,9 +27,9 @@ public class University_Details_Nepal {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/pAPMAKgAFr32\n");
 
-        KOIRALA .put("logo", R.drawable.kirov_logo);
+        KOIRALA .put("logo", R.drawable.bp_logo);
 
-        KOIRALA .put("image", R.drawable.kirov);
+        KOIRALA .put("image", R.drawable.bp_img);
 
         KOIRALA .put("intoduction", "B.P. Koirala Institute of Health Sciences (BPKIHS) was established on Jan 18, 1993 and subsequently upgraded as an autonomous Health Sciences University on Oct 28, 1998 with a mandate to work towards developing socially responsible and competent health workforce, providing health care & involving in innovative health research. The Institute, located in Eastern Nepal, has extended its continued health services through teaching district concept to Primary Health Care Centers, District Hospitals and Zonal Hospitals in different districts of the region. This University is aptly named after Bisheshwar Prasad Koirala, Nepal’s visionary leader in social uplifting, firm believer of national integration.\n" +
                 "This Institute is envisaged as one of the successful examples of Nepal-India co-operation. The Health Ministers of the two countries signed the Indo-Nepal agreement for establishment of BPKIHS on the Hindu auspicious day of Mahashivaratri (Mar 10, 1994)\n" +
@@ -128,9 +128,9 @@ public class University_Details_Nepal {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/eWrQDKgD7QE2\n");
 
-        INTERNATIONAL.put("logo", R.drawable.kirov_logo);
+        INTERNATIONAL.put("logo", R.drawable.international_nepal_logo);
 
-        INTERNATIONAL.put("image", R.drawable.kirov);
+        INTERNATIONAL.put("image", R.drawable.international_nepal_img);
 
         INTERNATIONAL.put("intoduction", "The Institute of Medicine (IOM) was established in 1972 under Tribhuvan University with the mandate and the responsibility of training all the categories of health manpower needed in the country. Within the first decade of its establishment, it developed a total of 12 campuses scattered over the country out of which 3 campuses were in Kathmandu and 9 campuses were outside the Kathmandu Valley.In the beginning, the importance was given to training of middle level health workers. The programs for this purpose were:\n" +
                 "•\tANM\n" +
@@ -238,9 +238,9 @@ public class University_Details_Nepal {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/FB2idshSCp52\n");
 
-        MANIPAL.put("logo", R.drawable.kirov_logo);
+        MANIPAL.put("logo", R.drawable.manipal_logo);
 
-        MANIPAL.put("image", R.drawable.kirov);
+        MANIPAL.put("image", R.drawable.manipal_img);
 
         MANIPAL.put("intoduction", "Manipal Academy of Higher Education is synonymous with excellence in higher education. Over 28,000 students from 57 different nations live, learn and play in the sprawling University town, nestled on a plateau in Karnataka’s Udupi district. It also has nearly 2500 faculty and almost 10000 other support and service staff, who cater to the various professional institutions in health sciences, engineering, management, communication and humanities which dot the Wi-Fi-enabled campus.\n" +
                 "The University has off-campuses in Mangalore and Bangalore, and off-shore campuses in Dubai(UAE) and Melaka (Malaysia). The Mangalore campus offers medical, dental, and nursing programs. The Bangalore Campus offers programs in Regenerative Medicine. The Dubai campus offers programs in engineering, management and architecture, and the Melaka campus offers programs in medicine and dentistry.\n" +
@@ -343,9 +343,9 @@ public class University_Details_Nepal {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/LVZTKYhu3D82\n");
 
-        KATHMANDU.put("logo", R.drawable.kirov_logo);
+        KATHMANDU.put("logo", R.drawable.kathmandu_logo);
 
-        KATHMANDU.put("image", R.drawable.kirov);
+        KATHMANDU.put("image", R.drawable.kathmandu_img);
 
         KATHMANDU.put("intoduction", "Established in 1997, Kathmandu Medical College (KMC Kathmandu) is a private medical college in Nepal permanently affiliated to Kathmandu University Nepal, one of the top universities in Nepal. KMC Kathmandu is committed to providing best medical education programs that produce skilled, committed and compassionate health professionals.\n" +
                 "Kathmandu Medical College (KMC Kathmandu) functions from two complexes: Basic Sciences Complex in Duwakot and Clinical Sciences Complex in Sinamangal.\n" +
@@ -449,9 +449,9 @@ public class University_Details_Nepal {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/fRe7ReT7JLx\n");
 
-        NEPALGANJ.put("logo", R.drawable.kirov_logo);
+        NEPALGANJ.put("logo", R.drawable.nepalganj_logo);
 
-        NEPALGANJ.put("image", R.drawable.kirov);
+        NEPALGANJ.put("image", R.drawable.nepalganj_img);
 
         NEPALGANJ.put("intoduction", "Lord Buddha Educational Academy Ltd arrived with an aim of improving and strengthening the nation by giving excellent performance in the medical sector. Very soon, when it is started, an entire group of well-known medical professionals, distinguished entrepreneurs, famous educationalist and politically known people came forward to achieve the social responsibility and after all this, Nepalgunj Medical College was founded.\n" +
                 "The MBBS course was started in 1997 in the college, in 2000 Nursing program was introduced, and in 2007 Post Graduation was begun in NGMC. Also, the College shows to the recommendation of India Medical Council, SAARC Medical Council, Medical Council of Nepal, Medical Council of Srilad and many different countries.\n" +
@@ -551,9 +551,9 @@ public class University_Details_Nepal {
                 "WHO Approved\n" +
                 "Google map - https://goo.gl/maps/PQVXVdhEAiG2\n");
 
-        COLLEGE.put("logo", R.drawable.kirov_logo);
+        COLLEGE.put("logo", R.drawable.college_logo);
 
-        COLLEGE.put("image", R.drawable.kirov);
+        COLLEGE.put("image", R.drawable.college_img);
 
         COLLEGE.put("intoduction", "The International Society for Medical Education Pvt. Ltd. (ISME Pvt. Ltd.) - non profit organisation had an agreement with Government of Nepal, which was signed on 8th August 1993 to establish the College of Medical Sciences - at Bharatpur for medical education, promotion of health and training Para-Medical staff in Nepal.\n" +
                 "In reality the institution was established under the pioneer leadership of Mr. Nagender K. Pampati, a young MBA from Boston, USA, the Managing Director and Architect of this newly established Institution. The institution has been continuously progressing under the dynamic leadership of young medical graduate from the same institution and the Director of ISME Pvt. Ltd. Dr. V. Natraj Prasad.\n" +
@@ -643,7 +643,13 @@ public class University_Details_Nepal {
 
 
 
-
-        return KOIRALA;
+        JSONArray allColleges = new JSONArray();
+        allColleges.put(KOIRALA);
+        allColleges.put(INTERNATIONAL);
+        allColleges.put(MANIPAL);
+        allColleges.put(KATHMANDU);
+        allColleges.put(NEPALGANJ);
+        allColleges.put(COLLEGE);
+        return allColleges.getJSONObject(varCollegeName);
     }
 }

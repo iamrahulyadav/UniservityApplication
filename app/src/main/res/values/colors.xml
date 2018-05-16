@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#DA70D6</color>
-    <color name="colorPrimaryDark">#8B008B</color>
+    <color name="colorPrimary">#b27cb0</color>
+    <color name="colorPrimaryDark">#dd3fdd</color>
     <color name="colorAccent">#FF4081</color>
     <color name="red">#f33333</color>
     <color name="yellow">#fcff00</color>
@@ -17,9 +17,9 @@
     <color name="background">#e9efef</color>
     <color name="icon_background">#303856</color>
     <color name="light_blue">#c4cdee</color>
-    <color name="lightre_purple">#DDA0DD</color>
-    <color name="light_purple">#da70d6</color>
-    <color name="dark_purple">#8b008b</color>
+    <color name="lightre_purple">#e1c7e1</color>
+    <color name="light_purple">#b27cb0</color>
+    <color name="dark_purple">#240124</color>
     <color name="bg_purple">#fcdffc</color>
 
 </resources>
