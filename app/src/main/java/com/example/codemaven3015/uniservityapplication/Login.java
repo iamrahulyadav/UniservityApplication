@@ -39,7 +39,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         cancelBtn=findViewById(R.id.cancelBtn);
         setsubmitBtn();
-       sharedPreferences=getSharedPreferences("MyPREFERENCES", Context.MODE_PRIVATE);
+       sharedPreferences=getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
 
         //setMobileValidation();
 
@@ -55,6 +55,8 @@ public class Login extends AppCompatActivity {
          name = Name_editText.getText().toString().trim();
          email = Mail_editText.getText().toString().trim();
         SharedPreferences.Editor editor=sharedPreferences.edit();
+        editor.putString("USERNAME",name);
+        editor.commit();
 
         if(!checkIfEmpty(phone)){
             Mobile_editText.setError("Phone Number Cannot be empty");

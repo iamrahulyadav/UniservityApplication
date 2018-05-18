@@ -1,6 +1,8 @@
 package com.example.codemaven3015.uniservityapplication;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,10 +26,18 @@ TextView countryName,universityName,overview,introduction,eligibility,facilities
         services,text1,text2,text3,text4,text5,text6,text7,text8;
 ImageView logo,image;
 Button applyNowBtn;
+
+    public static final String MyPREFERENCES= "MyPrefs";
+    SharedPreferences sharedPreferences;
+    SharedPreferences.Editor editor;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_college__info);
+
+        sharedPreferences=getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+        editor=sharedPreferences.edit();
+
         try {
             getInfoData();
         } catch (JSONException e) {
@@ -127,6 +137,8 @@ Button applyNowBtn;
         try {
             countryName.setText(obj.getString("country"));
             universityName.setText(obj.getString("name"));
+            editor.putString("COLLEGE_NAME",obj.getString("name"));
+            editor.commit();
             overview.setText(obj.getString("overview"));
             introduction.setText(obj.getString("intoduction"));
             eligibility.setText(obj.getString("Eligibility"));
