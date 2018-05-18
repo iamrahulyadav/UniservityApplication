@@ -33,8 +33,8 @@ public class Registration extends AppCompatActivity {
         setContentView(R.layout.activity_registration);
         sharedPreferences=getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
        // SharedPreferences.Editor editor=sharedPreferences.edit();
-        User_Name= sharedPreferences.getString("USERNAME", "name");
-        College_Name= sharedPreferences.getString("COLLEGE_NAME", "name");
+        User_Name= sharedPreferences.getString("USERNAME", "");
+        College_Name= sharedPreferences.getString("COLLEGE_NAME", "");
         
         //editor.putString(User_Name,name);
         setupdateBtn();
@@ -55,7 +55,7 @@ public class Registration extends AppCompatActivity {
     {
 
         RequestQueue requestQueue= Volley.newRequestQueue(this);
-        String url = "//192.168.0.105:8888/University_Service/service/update_u";
+        String url = "http://192.168.0.105:8888/University_Service/REST/Service/update_u/";
         StringRequest jsonObject=new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response)

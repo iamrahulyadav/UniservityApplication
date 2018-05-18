@@ -125,7 +125,7 @@ public class Login extends AppCompatActivity {
     {
 
         RequestQueue requestQueue= Volley.newRequestQueue(this);
-        String url = "http://192.168.101.38:8888/University_Service/service/login";
+        String url = "http://192.168.0.105:8888/University_Service/REST/Service/login/";
         StringRequest jsonObject=new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response)
