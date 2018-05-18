@@ -1,17 +1,34 @@
 package com.example.codemaven3015.uniservityapplication;
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class Login extends AppCompatActivity {
 
     EditText Name_editText,Mobile_editText,Mail_editText;
     Button cancelBtn,submitBtn;
+    String phone=null;
+    String name=null;
+    String email=null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +37,7 @@ public class Login extends AppCompatActivity {
         setsubmitBtn();
         //setMobileValidation();
 
+
     }
 
     private boolean setMobileValidation()
@@ -27,9 +45,9 @@ public class Login extends AppCompatActivity {
         Mobile_editText=findViewById(R.id.Mobile_editText);
         Mail_editText=findViewById(R.id.Mail_editText);
         Name_editText=findViewById(R.id.Name_editText);
-        String phone = Mobile_editText.getText().toString().trim();
-        String name = Name_editText.getText().toString().trim();
-        String email = Mail_editText.getText().toString().trim();
+         phone = Mobile_editText.getText().toString().trim();
+         name = Name_editText.getText().toString().trim();
+         email = Mail_editText.getText().toString().trim();
 
         if(!checkIfEmpty(phone)){
             Mobile_editText.setError("Phone Number Cannot be empty");
@@ -82,14 +100,85 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(setMobileValidation()) {
-                    Intent intent = new Intent(Login.this, Otp.class);
-                    startActivity(intent);
+
+                    loginServiceCall();
                 }
                 else {
                     return;
                 }
+
             }
         });
 
     }
-}
+
+    private void loginServiceCall()
+    {
+
+        RequestQueue requestQueue= Volley.newRequestQueue(this);
+        String url = "http://192.168.101.38:8888/University_Service/service/login";
+        StringRequest jsonObject=new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response)
+            {
+                Log.e("my app", "123"+response);
+                if(response.equals("\"success\"")){
+                    Intent i = new Intent(Login.this, Home.class);
+                    startActivity(i);
+
+                }else {
+                    showMessage("Error","Wrong Username or password");
+                }
+
+
+            }
+
+        }, new Response.ErrorListener()
+        {
+            @Override
+            public void onErrorResponse(VolleyError error)
+            {
+                Log.e("my app1","error");
+            }
+        }
+        ) {
+
+            @Override
+            public String getBodyContentType() {
+                return "application/x-www-form-urlencoded; charset=UTF-8";
+            }
+
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("username", name);
+                params.put("email",email);
+                params.put("phone",phone);
+                return params;
+            }
+
+        };
+        requestQueue.add(jsonObject);
+    }
+
+
+
+    private void showMessage(String title, String message)
+    {AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setCancelable(true);
+        builder.setTitle(title);
+        //builder.set
+        builder.setMessage(message);
+        //builder.show();
+        AlertDialog dialog1 = builder.create();
+        dialog1.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialog) {
+                Window view = ((AlertDialog)dialog).getWindow();
+                view.setBackgroundDrawableResource(R.color.white);
+            }
+        });
+        dialog1.show();
+    }
+    }
+

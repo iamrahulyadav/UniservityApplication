@@ -134,12 +134,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:padding="5dp"
-                        android:text="This year's Google Play Awards will take place on Monday, May 7th, kicking off the week of Google I/O. Celebrating our third year, we're excited to highlight nine categories; some you may recognize from previous years, along with new additions highlighting growth areas and trends we're focused on, such as building for emerging markets.
-
-Each year, the Google Play Awards recognize top apps and games on Google Play. They represent some of the best experiences available on Android, with an emphasis on overall quality, strong design, technical performance, and innovation. The nominees were selected by various teams across Google, and all meet criteria thresholds covering high star rating, Android vitals, and have had a launch or major update since April 2017.
-
-Congratulations to this year's nominees below and don't forget to check them out on the Google Play store at g.co/play/gpa2018.INTRODUCTION  jhsfbj geaiubfmbKJGHK ZFJKSHGHLSNDHGUEIGFUQEN KJHDFLIHQEFJ FBEKLDJFGHILH DDFL IEHIUFOIQE JHAFKJHO IEAF EHFKJDFIL enafjkdhfioe "
-                        android:textColor="@color/black" />
+                        android:text="This year's Google Play Awards will take place on Monday"
+                        android:textStyle="bold"/>
                 </LinearLayout>
 
                 <TextView
@@ -170,11 +166,7 @@ Congratulations to this year's nominees below and don't forget to check them out
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:padding="5dp"
-                        android:text="This year's Google Play Awards will take place on Monday, May 7th, kicking off the week of Google I/O. Celebrating our third year, we're excited to highlight nine categories; some you may recognize from previous years, along with new additions highlighting growth areas and trends we're focused on, such as building for emerging markets.
-
-Each year, the Google Play Awards recognize top apps and games on Google Play. They represent some of the best experiences available on Android, with an emphasis on overall quality, strong design, technical performance, and innovation. The nominees were selected by various teams across Google, and all meet criteria thresholds covering high star rating, Android vitals, and have had a launch or major update since April 2017.
-
-Congratulations to this year's nominees below and don't forget to check them out on the Google Play store at g.co/play/gpa2018.INTRODUCTION  jhsfbj geaiubfmbKJGHK ZFJKSHGHLSNDHGUEIGFUQEN KJHDFLIHQEFJ FBEKLDJFGHILH DDFL IEHIUFOIQE JHAFKJHO IEAF EHFKJDFIL enafjkdhfioe "
+                        android:text="This year's Google Play Awards will take place on Monday"
                         android:textColor="@color/black" />
                 </LinearLayout>
 
@@ -206,11 +198,7 @@ Congratulations to this year's nominees below and don't forget to check them out
                             android:layout_height="wrap_content"
                             android:layout_margin="10dp"
                             android:padding="5dp"
-                            android:text="This year's Google Play Awards will take place on Monday, May 7th, kicking off the week of Google I/O. Celebrating our third year, we're excited to highlight nine categories; some you may recognize from previous years, along with new additions highlighting growth areas and trends we're focused on, such as building for emerging markets.
-
-Each year, the Google Play Awards recognize top apps and games on Google Play. They represent some of the best experiences available on Android, with an emphasis on overall quality, strong design, technical performance, and innovation. The nominees were selected by various teams across Google, and all meet criteria thresholds covering high star rating, Android vitals, and have had a launch or major update since April 2017.
-
-Congratulations to this year's nominees below and don't forget to check them out on the Google Play store at g.co/play/gpa2018.INTRODUCTION  jhsfbj geaiubfmbKJGHK ZFJKSHGHLSNDHGUEIGFUQEN KJHDFLIHQEFJ FBEKLDJFGHILH DDFL IEHIUFOIQE JHAFKJHO IEAF EHFKJDFIL enafjkdhfioe "
+                            android:text="This year's Google Play Awards will take place on Monday"
                             android:textColor="@color/black" />
                     </LinearLayout>
 
@@ -245,7 +233,7 @@ Congratulations to this year's nominees below and don't forget to check them out
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:padding="5dp"
-                    android:text="This year's Google Play Awards will take place on Monday, May 7th, kicking off the week of Google I/O. Celebrating our third year, we're excited to highlight nine categories; some you may recognize from previous years, along with new additions highlighting growth areas and trends we're focused on, such as building for emerging markets."
+                    android:text="This year's Google Play Awards will take place on Monday"
                     android:textColor="@color/black" />
 
                 <TextView
@@ -276,11 +264,7 @@ Congratulations to this year's nominees below and don't forget to check them out
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:padding="5dp"
-                        android:text="This year's Google Play Awards will take place on Monday, May 7th, kicking off the week of Google I/O. Celebrating our third year, we're excited to highlight nine categories; some you may recognize from previous years, along with new additions highlighting growth areas and trends we're focused on, such as building for emerging markets.
-
-Each year, the Google Play Awards recognize top apps and games on Google Play. They represent some of the best experiences available on Android, with an emphasis on overall quality, strong design, technical performance, and innovation. The nominees were selected by various teams across Google, and all meet criteria thresholds covering high star rating, Android vitals, and have had a launch or major update since April 2017.
-
-Congratulations to this year's nominees below and don't forget to check them out on the Google Play store at g.co/play/gpa2018.INTRODUCTION  jhsfbj geaiubfmbKJGHK ZFJKSHGHLSNDHGUEIGFUQEN KJHDFLIHQEFJ FBEKLDJFGHILH DDFL IEHIUFOIQE JHAFKJHO IEAF EHFKJDFIL enafjkdhfioe "
+                        android:text="This year's Google Play Awards will take place on Monday"
                         android:textColor="@color/black" />
                 </LinearLayout>
 
