@@ -1,7 +1,9 @@
 package com.example.codemaven3015.uniservityapplication;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -29,12 +31,16 @@ public class Login extends AppCompatActivity {
     String phone=null;
     String name=null;
     String email=null;
+    public static final String MyPREFERENCES= "MyPrefs";
+    SharedPreferences sharedPreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         cancelBtn=findViewById(R.id.cancelBtn);
         setsubmitBtn();
+       sharedPreferences=getSharedPreferences("MyPREFERENCES", Context.MODE_PRIVATE);
+
         //setMobileValidation();
 
 
@@ -48,6 +54,7 @@ public class Login extends AppCompatActivity {
          phone = Mobile_editText.getText().toString().trim();
          name = Name_editText.getText().toString().trim();
          email = Mail_editText.getText().toString().trim();
+        SharedPreferences.Editor editor=sharedPreferences.edit();
 
         if(!checkIfEmpty(phone)){
             Mobile_editText.setError("Phone Number Cannot be empty");
